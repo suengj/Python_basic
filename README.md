@@ -68,6 +68,6 @@
 
 8. Python for Data Analysis (McKinney, Wes; O'Reilly) (2013):  ***추천합니다*** &#128525;
 
-9. Automate The Boring Stuff with Python (Sweigart, Al; it-books.info) (2015) - Python을 통한 업무 자동화와 관련이 있습니다. (데이터 분석과는 거리가 있음)
+9. Automate The Boring Stuff with Python (Sweigart, Al) (2015) - Python을 통한 업무 자동화와 관련이 있습니다. (데이터 분석과는 거리가 있음)
 
 10. Think Stats: Exploratory Data Analysis in Python (Downey, Allen B.; O'Reilly) (2014)
