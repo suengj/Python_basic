@@ -49,15 +49,25 @@
         + [tinyDB]
         
 ---        
-#### 주 참고는 다음과 같습니다. 
+#### 주로 참고 한 자료는 다음과 같습니다. 
 1. [데이터 사이언스 스쿨 내 라이브러리 소개](https://datascienceschool.net/view-notebook/b85212ea4040408e8ebd6d3495f2c91b/)
     + 덧붙여, [데이터 사이언스 스쿨 - Python version](https://datascienceschool.net/view-notebook/661128713b654edc928ecb455a826b1d/) 자체도 참고할만한 사이트입니다. 
     
     
-2. 파이썬을 이용한 머신러닝, 딥러닝 실전 개발 입문 (쿠지라 히코우즈쿠에 지음, 윤인성 옮김)
+2. 파이썬을 이용한 머신러닝, 딥러닝 실전 개발 입문 (쿠지라 히코우즈쿠에 지음, 윤인성 옮김 - 위키북스 데이터사이언스 시리즈) (2017)
 
 3. [Python for Non-Programmers](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers)
 
 4. [Luis Solis' Blog](https://python.zeef.com/luis.solis) : ***강력하게 추천*** &#128525;
 
 5. [점프 투 파이썬](https://wikidocs.net/book/1)
+
+6. Introduction to Machine Learning with Python (Muller, Andreas C. & Guido, Sarah; O'Reilly) (2017)
+
+7. Learning Python (Lutz, Mark; O'Reilly) (2013) - Python 이라는 프로그램 자체에 대한 내용에 가깝습니다. 
+
+8. Python for Data Analysis (McKinney, Wes; O'Reilly) (2013):  ***추천합니다*** &#128525;
+
+9. Automate The Boring Stuff with Python (Sweigart, Al; it-books.info) (2015) - Python을 통한 업무 자동화와 관련이 있습니다. (데이터 분석과는 거리가 있음)
+
+10. Think Stats: Exploratory Data Analysis in Python (Downey, Allen B.; O'Reilly) (2014)
