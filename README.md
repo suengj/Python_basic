@@ -75,4 +75,5 @@
 
 #### 덧붙여,
 추가적으로 IPySTATA라는 라이브러리가 있다는 것을 확인하였습니다. (2018.06.15.)
+
 대학원 과정에서 STATA를 주로 사용했는데, Jupyter Notebook에서 활용 할 수 있다는 내용 [[link 1 - github]](https://github.com/TiesdeKok/ipystata#setup) / [[link 2 - jupyter.org]](http://nbviewer.jupyter.org/github/TiesdeKok/ipystata/blob/master/ipystata/Example.ipynb) / [[link3 - pypi.org]](https://pypi.org/project/ipystata/) 을 보았습니다. 
