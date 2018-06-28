@@ -1,0 +1,1728 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Python_200제.html</title>
+  <meta name="generator" content="Haroopad 0.13.1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>div.oembedall-githubrepos{border:1px solid #DDD;border-radius:4px;list-style-type:none;margin:0 0 10px;padding:8px 10px 0;font:13.34px/1.4 helvetica,arial,freesans,clean,sans-serif;width:452px;background-color:#fff}div.oembedall-githubrepos .oembedall-body{background:-moz-linear-gradient(center top,#FAFAFA,#EFEFEF);background:-webkit-gradient(linear,left top,left bottom,from(#FAFAFA),to(#EFEFEF));border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-top:1px solid #EEE;margin-left:-10px;margin-top:8px;padding:5px 10px;width:100%}div.oembedall-githubrepos h3{font-size:14px;margin:0;padding-left:18px;white-space:nowrap}div.oembedall-githubrepos p.oembedall-description{color:#444;font-size:12px;margin:0 0 3px}div.oembedall-githubrepos p.oembedall-updated-at{color:#888;font-size:11px;margin:0}div.oembedall-githubrepos ul.oembedall-repo-stats{border:none;float:right;font-size:11px;font-weight:700;padding-left:15px;position:relative;z-index:5;margin:0}div.oembedall-githubrepos ul.oembedall-repo-stats li{border:none;color:#666;display:inline-block;list-style-type:none;margin:0!important}div.oembedall-githubrepos ul.oembedall-repo-stats li a{background-color:transparent;border:none;color:#666!important;background-position:5px -2px;background-repeat:no-repeat;border-left:1px solid #DDD;display:inline-block;height:21px;line-height:21px;padding:0 5px 0 23px}div.oembedall-githubrepos ul.oembedall-repo-stats li:first-child a{border-left:medium none;margin-right:-3px}div.oembedall-githubrepos ul.oembedall-repo-stats li a:hover{background:5px -27px no-repeat #4183C4;color:#FFF!important;text-decoration:none}div.oembedall-githubrepos ul.oembedall-repo-stats li:first-child a:hover{border-bottom-left-radius:3px;border-top-left-radius:3px}ul.oembedall-repo-stats li:last-child a:hover{border-bottom-right-radius:3px;border-top-right-radius:3px}span.oembedall-closehide{background-color:#aaa;border-radius:2px;cursor:pointer;margin-right:3px}div.oembedall-container{margin-top:5px;text-align:left}.oembedall-ljuser{font-weight:700}.oembedall-ljuser img{vertical-align:bottom;border:0;padding-right:1px}.oembedall-stoqembed{border-bottom:1px dotted #999;float:left;overflow:hidden;width:730px;line-height:1;background:#FFF;color:#000;font-family:Arial,Liberation Sans,DejaVu Sans,sans-serif;font-size:80%;text-align:left;margin:0;padding:0}.oembedall-stoqembed a{color:#07C;text-decoration:none;margin:0;padding:0}.oembedall-stoqembed a:hover{text-decoration:underline}.oembedall-stoqembed a:visited{color:#4A6B82}.oembedall-stoqembed h3{font-family:Trebuchet MS,Liberation Sans,DejaVu Sans,sans-serif;font-size:130%;font-weight:700;margin:0;padding:0}.oembedall-stoqembed .oembedall-reputation-score{color:#444;font-size:120%;font-weight:700;margin-right:2px}.oembedall-stoqembed .oembedall-user-info{height:35px;width:185px}.oembedall-stoqembed .oembedall-user-info .oembedall-user-gravatar32{float:left;height:32px;width:32px}.oembedall-stoqembed .oembedall-user-info .oembedall-user-details{float:left;margin-left:5px;overflow:hidden;white-space:nowrap;width:145px}.oembedall-stoqembed .oembedall-question-hyperlink{font-weight:700}.oembedall-stoqembed .oembedall-stats{background:#EEE;margin:0 0 0 7px;padding:4px 7px 6px;width:58px}.oembedall-stoqembed .oembedall-statscontainer{float:left;margin-right:8px;width:86px}.oembedall-stoqembed .oembedall-votes{color:#555;padding:0 0 7px;text-align:center}.oembedall-stoqembed .oembedall-vote-count-post{font-size:240%;color:#808185;display:block;font-weight:700}.oembedall-stoqembed .oembedall-views{color:#999;padding-top:4px;text-align:center}.oembedall-stoqembed .oembedall-status{margin-top:-3px;padding:4px 0;text-align:center;background:#75845C;color:#FFF}.oembedall-stoqembed .oembedall-status strong{color:#FFF;display:block;font-size:140%}.oembedall-stoqembed .oembedall-summary{float:left;width:635px}.oembedall-stoqembed .oembedall-excerpt{line-height:1.2;margin:0;padding:0 0 5px}.oembedall-stoqembed .oembedall-tags{float:left;line-height:18px}.oembedall-stoqembed .oembedall-tags a:hover{text-decoration:none}.oembedall-stoqembed .oembedall-post-tag{background-color:#E0EAF1;border-bottom:1px solid #3E6D8E;border-right:1px solid #7F9FB6;color:#3E6D8E;font-size:90%;line-height:2.4;margin:2px 2px 2px 0;padding:3px 4px;text-decoration:none;white-space:nowrap}.oembedall-stoqembed .oembedall-post-tag:hover{background-color:#3E6D8E;border-bottom:1px solid #37607D;border-right:1px solid #37607D;color:#E0EAF1}.oembedall-stoqembed .oembedall-fr{float:right}.oembedall-stoqembed .oembedall-statsarrow{background-image:url(http://cdn.sstatic.net/stackoverflow/img/sprites.png?v=3);background-repeat:no-repeat;overflow:hidden;background-position:0 -435px;float:right;height:13px;margin-top:12px;width:7px}.oembedall-facebook1{border:1px solid #1A3C6C;padding:0;font:13.34px/1.4 verdana;width:500px}.oembedall-facebook2{background-color:#627add}.oembedall-facebook2 a{color:#e8e8e8;text-decoration:none}.oembedall-facebookBody{background-color:#fff;vertical-align:top;padding:5px}.oembedall-facebookBody .contents{display:inline-block;width:100%}.oembedall-facebookBody div img{float:left;margin-right:5px}div.oembedall-lanyard{-webkit-box-shadow:none;-webkit-transition-delay:0s;-webkit-transition-duration:.4000000059604645s;-webkit-transition-property:width;-webkit-transition-timing-function:cubic-bezier(0.42,0,.58,1);background-attachment:scroll;background-clip:border-box;background-color:transparent;background-image:none;background-origin:padding-box;border-width:0;box-shadow:none;color:#112644;display:block;float:left;font-family:'Trebuchet MS',Trebuchet,sans-serif;font-size:16px;height:253px;line-height:19px;margin:0;max-width:none;min-height:0;outline:#112644 0;overflow-x:visible;overflow-y:visible;padding:0;position:relative;text-align:left;vertical-align:baseline;width:804px}div.oembedall-lanyard .tagline{font-size:1.5em}div.oembedall-lanyard .wrapper{overflow:hidden;clear:both}div.oembedall-lanyard .split{float:left;display:inline}div.oembedall-lanyard .prominent-place .flag:active,div.oembedall-lanyard .prominent-place .flag:focus,div.oembedall-lanyard .prominent-place .flag:hover,div.oembedall-lanyard .prominent-place .flag:link,div.oembedall-lanyard .prominent-place .flag:visited{float:left;display:block;width:48px;height:48px;position:relative;top:-5px;margin-right:10px}div.oembedall-lanyard .place-context{font-size:.889em}div.oembedall-lanyard .prominent-place .sub-place{display:block}div.oembedall-lanyard .prominent-place{font-size:1.125em;line-height:1.1em;font-weight:400}div.oembedall-lanyard .main-date{color:#8CB4E0;font-weight:700;line-height:1.1}div.oembedall-lanyard .first{width:48.57%;margin:0 0 0 2.857%}.mermaid .label{color:#333}.node circle,.node polygon,.node rect{fill:#cde498;stroke:#13540c;stroke-width:1px}.edgePath .path{stroke:green;stroke-width:1.5px}.cluster rect{fill:#cdffb2;rx:40;stroke:#6eaa49;stroke-width:1px}.cluster text{fill:#333}.actor{stroke:#13540c;fill:#cde498}text.actor{fill:#000;stroke:none}.actor-line{stroke:grey}.messageLine0{stroke-width:1.5;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#333}.messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#arrowhead{fill:#333}#crosshead path{fill:#333!important;stroke:#333!important}.messageText{fill:#333;stroke:none}.labelBox{stroke:#326932;fill:#cde498}.labelText,.loopText{fill:#000;stroke:none}.loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#326932}.note{stroke:#6eaa49;fill:#fff5ad}.noteText{fill:#000;stroke:none;font-family:'trebuchet ms',verdana,arial;font-size:14px}.section{stroke:none;opacity:.2}.section0,.section2{fill:#6eaa49}.section1,.section3{fill:#fff;opacity:.2}.sectionTitle0,.sectionTitle1,.sectionTitle2,.sectionTitle3{fill:#333}.sectionTitle{text-anchor:start;font-size:11px;text-height:14px}.grid .tick{stroke:lightgrey;opacity:.3;shape-rendering:crispEdges}.grid path{stroke-width:0}.today{fill:none;stroke:red;stroke-width:2px}.task{stroke-width:2}.taskText{text-anchor:middle;font-size:11px}.taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}.taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}.taskText0,.taskText1,.taskText2,.taskText3{fill:#fff}.task0,.task1,.task2,.task3{fill:#487e3a;stroke:#13540c}.taskTextOutside0,.taskTextOutside1,.taskTextOutside2,.taskTextOutside3{fill:#000}.active0,.active1,.active2,.active3{fill:#cde498;stroke:#13540c}.activeText0,.activeText1,.activeText2,.activeText3{fill:#000!important}.done0,.done1,.done2,.done3{stroke:grey;fill:lightgrey;stroke-width:2}.doneText0,.doneText1,.doneText2,.doneText3{fill:#000!important}.crit0,.crit1,.crit2,.crit3{stroke:#f88;fill:red;stroke-width:2}.activeCrit0,.activeCrit1,.activeCrit2,.activeCrit3{stroke:#f88;fill:#cde498;stroke-width:2}.doneCrit0,.doneCrit1,.doneCrit2,.doneCrit3{stroke:#f88;fill:lightgrey;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}.activeCritText0,.activeCritText1,.activeCritText2,.activeCritText3,.doneCritText0,.doneCritText1,.doneCritText2,.doneCritText3{fill:#000!important}.titleText{text-anchor:middle;font-size:18px;fill:#000}text{font-family:'trebuchet ms',verdana,arial;font-size:14px}html{height:100%}body{margin:0!important;padding:5px 20px 26px!important;background-color:#fff;font-family:"Lucida Grande","Segoe UI","Apple SD Gothic Neo","Malgun Gothic","Lucida Sans Unicode",Helvetica,Arial,sans-serif;font-size:.9em;overflow-x:hidden;overflow-y:auto}br,h1,h2,h3,h4,h5,h6{clear:both}hr.page{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x;border:0;height:3px;padding:0}hr.underscore{border-top-style:dashed!important}body >:first-child{margin-top:0!important}img.plugin{box-shadow:0 1px 3px rgba(0,0,0,.1);border-radius:3px}iframe{border:0}figure{-webkit-margin-before:0;-webkit-margin-after:0;-webkit-margin-start:0;-webkit-margin-end:0}kbd{border:1px solid #aaa;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-moz-box-shadow:1px 2px 2px #ddd;-webkit-box-shadow:1px 2px 2px #ddd;box-shadow:1px 2px 2px #ddd;background-color:#f9f9f9;background-image:-moz-linear-gradient(top,#eee,#f9f9f9,#eee);background-image:-o-linear-gradient(top,#eee,#f9f9f9,#eee);background-image:-webkit-linear-gradient(top,#eee,#f9f9f9,#eee);background-image:linear-gradient(top,#eee,#f9f9f9,#eee);padding:1px 3px;font-family:inherit;font-size:.85em}.oembeded .oembed_photo{display:inline-block}img[data-echo]{margin:25px 0;width:100px;height:100px;background:url(../img/ajax.gif) center center no-repeat #fff}.spinner{display:inline-block;width:10px;height:10px;margin-bottom:-.1em;border:2px solid rgba(0,0,0,.5);border-top-color:transparent;border-radius:100%;-webkit-animation:spin 1s infinite linear;animation:spin 1s infinite linear}.spinner:after{content:'';display:block;width:0;height:0;position:absolute;top:-6px;left:0;border:4px solid transparent;border-bottom-color:rgba(0,0,0,.5);-webkit-transform:rotate(45deg);transform:rotate(45deg)}@-webkit-keyframes spin{to{-webkit-transform:rotate(360deg)}}@keyframes spin{to{transform:rotate(360deg)}}p.toc{margin:0!important}p.toc ul{padding-left:10px}p.toc>ul{padding:10px;margin:0 10px;display:inline-block;border:1px solid #ededed;border-radius:5px}p.toc li,p.toc ul{list-style-type:none}p.toc li{width:100%;padding:0;overflow:hidden}p.toc li a::after{content:"."}p.toc li a:before{content:"• "}p.toc h5{text-transform:uppercase}p.toc .title{float:left;padding-right:3px}p.toc .number{margin:0;float:right;padding-left:3px;background:#fff;display:none}input.task-list-item{margin-left:-1.62em}.markdown{font-family:"Hiragino Sans GB","Microsoft YaHei",STHeiti,SimSun,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",'Segoe UI',AppleSDGothicNeo-Medium,'Malgun Gothic',Verdana,Tahoma,sans-serif;padding:20px}.markdown a{text-decoration:none;vertical-align:baseline}.markdown a:hover{text-decoration:underline}.markdown h1{font-size:2.2em;font-weight:700;margin:1.5em 0 1em}.markdown h2{font-size:1.8em;font-weight:700;margin:1.275em 0 .85em}.markdown h3{font-size:1.6em;font-weight:700;margin:1.125em 0 .75em}.markdown h4{font-size:1.4em;font-weight:700;margin:.99em 0 .66em}.markdown h5{font-size:1.2em;font-weight:700;margin:.855em 0 .57em}.markdown h6{font-size:1em;font-weight:700;margin:.75em 0 .5em}.markdown h1+p,.markdown h1:first-child,.markdown h2+p,.markdown h2:first-child,.markdown h3+p,.markdown h3:first-child,.markdown h4+p,.markdown h4:first-child,.markdown h5+p,.markdown h5:first-child,.markdown h6+p,.markdown h6:first-child{margin-top:0}.markdown hr{border:1px solid #ccc}.markdown p{margin:1em 0;word-wrap:break-word}.markdown ol{list-style-type:decimal}.markdown li{display:list-item;line-height:1.4em}.markdown blockquote{margin:1em 20px}.markdown blockquote>:first-child{margin-top:0}.markdown blockquote>:last-child{margin-bottom:0}.markdown blockquote cite:before{content:'\2014 \00A0'}.markdown .code{border-radius:3px;word-wrap:break-word}.markdown pre{border-radius:3px;word-wrap:break-word;border:1px solid #ccc;overflow:auto;padding:.5em}.markdown pre code{border:0;display:block}.markdown pre>code{font-family:Consolas,Inconsolata,Courier,monospace;font-weight:700;white-space:pre;margin:0}.markdown code{border-radius:3px;word-wrap:break-word;border:1px solid #ccc;padding:0 5px;margin:0 2px}.markdown img{max-width:100%}.markdown mark{color:#000;background-color:#fcf8e3}.markdown table{padding:0;border-collapse:collapse;border-spacing:0;margin-bottom:16px}.markdown table tr td,.markdown table tr th{border:1px solid #ccc;margin:0;padding:6px 13px}.markdown table tr th{font-weight:700}.markdown table tr th>:first-child{margin-top:0}.markdown table tr th>:last-child{margin-bottom:0}.markdown table tr td>:first-child{margin-top:0}.markdown table tr td>:last-child{margin-bottom:0}.github{padding:20px;font-family:"Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",STHeiti,SimSun,"Segoe UI",AppleSDGothicNeo-Medium,'Malgun Gothic',Arial,freesans,sans-serif;font-size:15px;background:#fff;line-height:1.6;-webkit-font-smoothing:antialiased}.github a{color:#3269a0}.github a:hover{color:#4183c4}.github h2{border-bottom:1px solid #e6e6e6;line-height:1.6}.github h6{color:#777}.github hr{border:1px solid #e6e6e6}.github pre>code{font-size:.9em;font-family:Consolas,Inconsolata,Courier,monospace}.github blockquote>code,.github h1>code,.github h2>code,.github h3>code,.github h4>code,.github h5>code,.github h6>code,.github li>code,.github p>code,.github td>code{background-color:rgba(0,0,0,.07);font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;font-size:85%;padding:.2em .5em;border:0}.github blockquote{border-left:4px solid #e6e6e6;padding:0 15px;font-style:italic}.github table{background-color:#fafafa}.github table tr td,.github table tr th{border:1px solid #e6e6e6}.github table tr:nth-child(2n){background-color:#f2f2f2}.hljs{display:block;overflow-x:auto;padding:.5em;background:#fff;color:#000;-webkit-text-size-adjust:none}.hljs-comment,.hljs-javadoc{color:#800}.hljs-keyword,.hljs-list .hljs-keyword,.hljs-request,.hljs-status,.hljs-tag .hljs-title,.hljs-winutils,.http .hljs-title,.method,.nginx .hljs-title,.setting .hljs-value,.tex .hljs-command{color:#008}.hljs-envvar,.tex .hljs-special{color:#660}.apache .hljs-cbracket,.coffeescript .hljs-attribute,.hljs-attr_selector,.hljs-cdata,.hljs-date,.hljs-filter .hljs-argument,.hljs-regexp,.hljs-string,.hljs-tag .hljs-value{color:#080}.clojure .hljs-attribute,.css .hljs-function,.hljs-decorator,.hljs-hexcolor,.hljs-literal,.hljs-number,.hljs-pi,.hljs-prompt,.hljs-rules .hljs-value,.hljs-shebang,.hljs-sub .hljs-identifier,.hljs-symbol,.hljs-tag,.hljs-tag .hljs-keyword,.ini .hljs-title,.ruby .hljs-symbol .hljs-string{color:#066}.hljs-built_in,.hljs-class .hljs-id,.hljs-class .hljs-title,.hljs-dartdoc,.hljs-doctype,.hljs-javadoctag,.hljs-params,.hljs-phpdoc,.hljs-tag .hljs-attribute,.hljs-type,.hljs-typename,.hljs-variable,.hljs-yardoctag,.setting,.smalltalk .hljs-class{color:#606}.css .hljs-tag,.hljs-pseudo,.hljs-rules .hljs-property,.hljs-subst{color:#000}.css .hljs-class,.css .hljs-id{color:#9b703f}.hljs-value .hljs-important{color:#f70;font-weight:700}.hljs-rules .hljs-keyword{color:#c5af75}.apache .hljs-sqbracket,.hljs-annotation,.nginx .hljs-built_in{color:#9b859d}.hljs-pragma,.hljs-preprocessor,.hljs-preprocessor *{color:#444}.tex .hljs-formula{background-color:#eee;font-style:italic}.diff .hljs-header,.hljs-chunk{color:gray;font-weight:700}.diff .hljs-change{background-color:#bccff9}.hljs-addition{background-color:#baeeba}.hljs-deletion{background-color:#ffc8bd}.hljs-comment .hljs-yardoctag{font-weight:700}.MathJax_Hover_Frame{border-radius:.25em;-webkit-border-radius:.25em;-moz-border-radius:.25em;-khtml-border-radius:.25em;box-shadow:0 0 15px #83A;-webkit-box-shadow:0 0 15px #83A;-moz-box-shadow:0 0 15px #83A;-khtml-box-shadow:0 0 15px #83A;border:1px solid #A6D!important;display:inline-block;position:absolute}.MathJax_Hover_Arrow{position:absolute;width:15px;height:11px;cursor:pointer}#MathJax_About{position:fixed;left:50%;width:auto;text-align:center;border:3px outset;padding:1em 2em;background-color:#DDD;color:#000;cursor:default;font-family:message-box;font-size:120%;font-style:normal;text-indent:0;text-transform:none;line-height:normal;letter-spacing:normal;word-spacing:normal;word-wrap:normal;white-space:nowrap;float:none;z-index:201;border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;-khtml-border-radius:15px;box-shadow:0 10px 20px gray;-webkit-box-shadow:0 10px 20px gray;-moz-box-shadow:0 10px 20px gray;-khtml-box-shadow:0 10px 20px gray;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}.MathJax_Menu{position:absolute;background-color:#fff;color:#000;width:auto;padding:2px;border:1px solid #CCC;margin:0;cursor:default;font:menu;text-align:left;text-indent:0;text-transform:none;line-height:normal;letter-spacing:normal;word-spacing:normal;word-wrap:normal;white-space:nowrap;float:none;z-index:201;box-shadow:0 10px 20px gray;-webkit-box-shadow:0 10px 20px gray;-moz-box-shadow:0 10px 20px gray;-khtml-box-shadow:0 10px 20px gray;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}.MathJax_MenuItem{padding:2px 2em;background:0 0}.MathJax_MenuArrow{position:absolute;right:.5em;color:#666}.MathJax_MenuActive .MathJax_MenuArrow{color:#fff}.MathJax_MenuArrow.RTL{left:.5em;right:auto}.MathJax_MenuCheck{position:absolute;left:.7em}.MathJax_MenuCheck.RTL{right:.7em;left:auto}.MathJax_MenuRadioCheck{position:absolute;left:1em}.MathJax_MenuRadioCheck.RTL{right:1em;left:auto}.MathJax_MenuLabel{padding:2px 2em 4px 1.33em;font-style:italic}.MathJax_MenuRule{border-top:1px solid #CCC;margin:4px 1px 0}.MathJax_MenuDisabled{color:GrayText}.MathJax_MenuActive{background-color:Highlight;color:HighlightText}.MathJax_Menu_Close{position:absolute;width:31px;height:31px;top:-15px;left:-15px}#MathJax_Zoom{position:absolute;background-color:#F0F0F0;overflow:auto;display:block;z-index:301;padding:.5em;border:1px solid #000;margin:0;font-weight:400;font-style:normal;text-align:left;text-indent:0;text-transform:none;line-height:normal;letter-spacing:normal;word-spacing:normal;word-wrap:normal;white-space:nowrap;float:none;box-shadow:5px 5px 15px #AAA;-webkit-box-shadow:5px 5px 15px #AAA;-moz-box-shadow:5px 5px 15px #AAA;-khtml-box-shadow:5px 5px 15px #AAA;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}#MathJax_ZoomOverlay{position:absolute;left:0;top:0;z-index:300;display:inline-block;width:100%;height:100%;border:0;padding:0;margin:0;background-color:#fff;opacity:0;filter:alpha(opacity=0)}#MathJax_ZoomFrame{position:relative;display:inline-block;height:0;width:0}#MathJax_ZoomEventTrap{position:absolute;left:0;top:0;z-index:302;display:inline-block;border:0;padding:0;margin:0;background-color:#fff;opacity:0;filter:alpha(opacity=0)}.MathJax_Preview{color:#888}#MathJax_Message{position:fixed;left:1px;bottom:2px;background-color:#E6E6E6;border:1px solid #959595;margin:0;padding:2px 8px;z-index:102;color:#000;font-size:80%;width:auto;white-space:nowrap}#MathJax_MSIE_Frame{position:absolute;top:0;left:0;width:0;z-index:101;border:0;margin:0;padding:0}.MathJax_Error{color:#C00;font-style:italic}footer{position:fixed;font-size:.8em;text-align:right;bottom:0;margin-left:-25px;height:20px;width:100%}</style>
+</head>
+<body class="markdown github">
+<p><strong>초보자를 위한 파이썬 200제를 기반으로 합니다. (장삼용 지음, 정보문화사 출판)</strong> </p><p class="toc" style="undefined"></p><ul>
+<li><ul>
+<li><span class="title">
+<a href="#1.-입문" title="1. 입문">1. 입문</a>
+</span>
+<!--span class="number">
+0
+</span-->
+<ul>
+<li><ul>
+<li><span class="title">
+<a href="#변수명-만들기" title="변수명 만들기">변수명 만들기</a>
+</span>
+<!--span class="number">
+1
+</span-->
+</li>
+<li><span class="title">
+<a href="#자료형-개념-및-출력" title="자료형 개념 및 출력">자료형 개념 및 출력</a>
+</span>
+<!--span class="number">
+2
+</span-->
+</li>
+<li><span class="title">
+<a href="#if,-for,-while" title="if, for, while">if, for, while</a>
+</span>
+<!--span class="number">
+3
+</span-->
+</li>
+<li><span class="title">
+<a href="#none" title="None">None</a>
+</span>
+<!--span class="number">
+4
+</span-->
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><span class="title">
+<a href="#2.-초급" title="2. 초급">2. 초급</a>
+</span>
+<!--span class="number">
+5
+</span-->
+<ul>
+<li><ul>
+<li><span class="title">
+<a href="#연산자의-개념" title="연산자의 개념">연산자의 개념</a>
+</span>
+<!--span class="number">
+6
+</span-->
+</li>
+<li><span class="title">
+<a href="#시퀀스-자료에-대한-이해" title="시퀀스 자료에 대한 이해">시퀀스 자료에 대한 이해</a>
+</span>
+<!--span class="number">
+7
+</span-->
+</li>
+<li><span class="title">
+<a href="#문자열-및-문자열-포맷팅" title="문자열 및 문자열 포맷팅">문자열 및 문자열 포맷팅</a>
+</span>
+<!--span class="number">
+8
+</span-->
+</li>
+<li><span class="title">
+<a href="#함수(함수-인자,-지역-변수와-전역-변수,-함수-리턴)" title="함수(함수 인자, 지역 변수와 전역 변수, 함수 리턴)">함수(함수 인자, 지역 변수와 전역 변수, 함수 리턴)</a>
+</span>
+<!--span class="number">
+9
+</span-->
+</li>
+<li><span class="title">
+<a href="#파이썬-모듈과-패키지-이해" title="파이썬 모듈과 패키지 이해">파이썬 모듈과 패키지 이해</a>
+</span>
+<!--span class="number">
+10
+</span-->
+</li>
+<li><span class="title">
+<a href="#파일-열고-닫기" title="파일 열고 닫기">파일 열고 닫기</a>
+</span>
+<!--span class="number">
+11
+</span-->
+</li>
+<li><span class="title">
+<a href="#클래스-개념" title="클래스 개념">클래스 개념</a>
+</span>
+<!--span class="number">
+12
+</span-->
+</li>
+<li><span class="title">
+<a href="#예외처리" title="예외처리">예외처리</a>
+</span>
+<!--span class="number">
+13
+</span-->
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><span class="title">
+<a href="#3.-중급" title="3. 중급">3. 중급</a>
+</span>
+<!--span class="number">
+14
+</span-->
+<ul>
+<li><ul>
+<li><span class="title">
+<a href="#사용자-입력" title="사용자 입력">사용자 입력</a>
+</span>
+<!--span class="number">
+15
+</span-->
+</li>
+<li><span class="title">
+<a href="#자료-확인-및-간단한-수학" title="자료 확인 및 간단한 수학">자료 확인 및 간단한 수학</a>
+</span>
+<!--span class="number">
+16
+</span-->
+</li>
+<li><span class="title">
+<a href="#데이터-타입-변경" title="데이터 타입 변경">데이터 타입 변경</a>
+</span>
+<!--span class="number">
+17
+</span-->
+</li>
+<li><span class="title">
+<a href="#문자열-연습" title="문자열 연습">문자열 연습</a>
+</span>
+<!--span class="number">
+18
+</span-->
+</li>
+<li><span class="title">
+<a href="#리스트-연습" title="리스트 연습">리스트 연습</a>
+</span>
+<!--span class="number">
+19
+</span-->
+</li>
+<li><span class="title">
+<a href="#사전-연습" title="사전 연습">사전 연습</a>
+</span>
+<!--span class="number">
+20
+</span-->
+</li>
+<li><span class="title">
+<a href="#문자-코드" title="문자 코드">문자 코드</a>
+</span>
+<!--span class="number">
+21
+</span-->
+</li>
+<li><span class="title">
+<a href="#lambda-함수" title="lambda 함수">lambda 함수</a>
+</span>
+<!--span class="number">
+22
+</span-->
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><span class="title">
+<a href="#4.-응용" title="4. 응용">4. 응용</a>
+</span>
+<!--span class="number">
+23
+</span-->
+<ul>
+<li><ul>
+<li><span class="title">
+<a href="#파일-입출력" title="파일 입출력">파일 입출력</a>
+</span>
+<!--span class="number">
+24
+</span-->
+</li>
+<li><span class="title">
+<a href="#파일-관련-작업" title="파일 관련 작업">파일 관련 작업</a>
+</span>
+<!--span class="number">
+25
+</span-->
+</li>
+<li><span class="title">
+<a href="#디렉토리-관련" title="디렉토리 관련">디렉토리 관련</a>
+</span>
+<!--span class="number">
+26
+</span-->
+</li>
+<li><span class="title">
+<a href="#날짜" title="날짜">날짜</a>
+</span>
+<!--span class="number">
+27
+</span-->
+</li>
+<li><span class="title">
+<a href="#url" title="URL">URL</a>
+</span>
+<!--span class="number">
+28
+</span-->
+</li>
+<li><span class="title">
+<a href="#파일-분할-및-압축" title="파일 분할 및 압축">파일 분할 및 압축</a>
+</span>
+<!--span class="number">
+29
+</span-->
+</li>
+<li><span class="title">
+<a href="#기타" title="기타">기타</a>
+</span>
+<!--span class="number">
+30
+</span-->
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+</ul>
+<p></p><h2 id="1.-입문"><a name="1.-입문" href="#1.-입문"></a>1. 입문</h2><h4 id="변수명-만들기"><a name="변수명-만들기" href="#변수명-만들기"></a>변수명 만들기</h4><p>변수는 밑줄 문자(_) 혹은 영문자로 시작해야 한다.<br>대소문자 구분을 한다.<br><strong>예약어</strong>: if, elif, while, for 등의 함수 정의 혹은 class와 같은 예약어가 있는데 이들은 변수로 사용 할 수 없다.<br><code>import keyword</code>를 통하여 파이썬 예약어를 확인 할 수 있다. <br><br><strong>내장함수</strong>: abs 등과 같은 내장 함수를 변수로 사용하게 되면 해당 내장 함수를 사용 할 수 없다. 따라서 변수명을 짓는데 신중해야 한다. <br><br>변수에 값을 대입하기 위해서는 “=”을 사용한다.<br>#은 주석을 의미한다. </p><h4 id="자료형-개념-및-출력"><a name="자료형-개념-및-출력" href="#자료형-개념-및-출력"></a>자료형 개념 및 출력</h4><ol>
+<li>수치형 자료: 정수형(int), 실수형(float), 복소수형(complex)<ul>
+<li>정수형: <ul>
+<li>int(일반적인 정수형): 숫자 그대로 입력</li><li>bin(2진수): 0b를 입력하고 숫자 입력(e.g., 0b10)</li><li>oct(8진수): 0o를 입력하고 숫자 입력(e.g., 0o10)</li><li>hex(16진수): 0x를 입력하고 숫자 입력(e.g., 0x10)</li><li>long<br><br></li></ul>
+</li><li>실수형:<ul>
+<li>e: 1.56e3 (= 1.56 * 10^3) / -0.7e-4 (= -0.7 * 10^-4)<br><br></li></ul>
+</li><li>복소수형:<pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>  c1 = 1+7j # 파이썬에서는 허수부를 'j'로 씁니다.
+  print(c1.real); print(c1.imag) # 정수부, 허수부 출력
+  c2 = complex(2,-3) # 2-3j 를 입력
+</code></pre>">  c1 = <span class="hljs-number">1</span>+<span class="hljs-number">7j</span> <span class="hljs-comment"># 파이썬에서는 허수부를 'j'로 씁니다.</span>
+  print(c1.real); print(c1.imag) <span class="hljs-comment"># 정수부, 허수부 출력</span>
+  c2 = complex(<span class="hljs-number">2</span>,-<span class="hljs-number">3</span>) <span class="hljs-comment"># 2-3j 를 입력</span>
+</code></pre>
+</li></ul>
+</li><li>문자열 자료: ‘문자’ &amp; “문자 구문” / 작은 따옴표와 큰 따옴표 간에는 차이가 있음</li><li>리스트 자료: [ ] 안에 임의의 객체를 “순서 있게” 나열한 자료로써 각 요소는 “,”로 구분이 된다.</li><li>튜플 자료: 리스트와 비슷하지만 요소 값을 변경 할 수 없음 (R에서 factor와 유사한듯)</li><li>사전 자료: { } 안에 키:값 이라는 쌍이 구성되어 있는 “순서가 없는” 자료형이다. 각 요소는 “,”로 구분이 된다. 사전 자료는 순서가 없기 때문에 인덱싱을 통하여 값에 접근 할 수 없기 때문에 ‘키’값을 통해 접근 할 수 있다. </li></ol><p>자료 출력</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>a = 200
+list_data = ['a','b','c']
+dict_data = {'a':97, 'b':98}
+
+print(a) # 200 반환
+print(list_data) # 리스트 전체 반환
+print(list_data[0]) # 'a' 반환
+print(dict_data['a']) # 키 값을 참조하여 97 반환
+</code></pre>">a = <span class="hljs-number">200</span>
+list_data = [<span class="hljs-string">'a'</span>,<span class="hljs-string">'b'</span>,<span class="hljs-string">'c'</span>]
+dict_data = {<span class="hljs-string">'a'</span>:<span class="hljs-number">97</span>, <span class="hljs-string">'b'</span>:<span class="hljs-number">98</span>}
+
+print(a) <span class="hljs-comment"># 200 반환</span>
+print(list_data) <span class="hljs-comment"># 리스트 전체 반환</span>
+print(list_data[<span class="hljs-number">0</span>]) <span class="hljs-comment"># 'a' 반환</span>
+print(dict_data[<span class="hljs-string">'a'</span>]) <span class="hljs-comment"># 키 값을 참조하여 97 반환</span>
+</code></pre><p>print에 대한 옵션</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>print('#',end='') # 다음 출력문에 대하여 줄바꿈(\n)을 하지 않는다는 뜻
+print('#')
+# 두개의 print를 사용하면 # # 가 연속적으로 한 줄에 출력이 된다.
+</code></pre>">print(<span class="hljs-string">'#'</span>,end=<span class="hljs-string">''</span>) <span class="hljs-comment"># 다음 출력문에 대하여 줄바꿈(\n)을 하지 않는다는 뜻</span>
+print(<span class="hljs-string">'#'</span>)
+<span class="hljs-comment"># 두개의 print를 사용하면 # # 가 연속적으로 한 줄에 출력이 된다.</span>
+</code></pre><p>들여쓰기(indent)<br><em>가장 바깥쪽의 실행코드는 들여쓰기 없이 시작</em><br><strong><em>콜론(:) 다음 라인부터 실행되는 코드는 들여쓰기 간격이 “동일”해야 함</em></strong></p><h4 id="if,-for,-while"><a name="if,-for,-while" href="#if,-for,-while"></a>if, for, while</h4><p><strong>IF 문</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;># 조건이 오직 T/F와 같이 이항적일 때
+if 조건:
+    실행1
+else:
+    실행2
+
+# 다양한 조건
+if 조건1:
+    실행1
+elif 조건2:
+    실행2
+else:
+    실행3
+</code></pre>"><span class="hljs-comment"># 조건이 오직 T/F와 같이 이항적일 때</span>
+<span class="hljs-keyword">if</span> 조건:
+    실행<span class="hljs-number">1</span>
+<span class="hljs-keyword">else</span>:
+    실행<span class="hljs-number">2</span>
+
+<span class="hljs-comment"># 다양한 조건</span>
+<span class="hljs-keyword">if</span> 조건<span class="hljs-number">1</span>:
+    실행<span class="hljs-number">1</span>
+<span class="hljs-keyword">elif</span> 조건<span class="hljs-number">2</span>:
+    실행<span class="hljs-number">2</span>
+<span class="hljs-keyword">else</span>:
+    실행<span class="hljs-number">3</span>
+</code></pre><p><strong>FOR 문</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;># 기본
+for x in RANGE:
+    실행
+
+# for ~ continue ~ break
+for in RANGE:
+    print(x)
+    if x &amp;lt; 3:
+        continue
+    else:
+        break
+
+# 등을 설정함으로써 특정 조건에 한해서 for문을 멈출 수 있다. break는 아예 for 문에서 나오는 것을 의미
+
+# for ~ else
+for in RANGE:
+    반복 실행 코드
+else:
+    for 문이 모두 실행되었을 때 실행되는 코드
+</code></pre>"><span class="hljs-comment"># 기본</span>
+<span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> RANGE:
+    실행
+
+<span class="hljs-comment"># for ~ continue ~ break</span>
+<span class="hljs-keyword">for</span> <span class="hljs-keyword">in</span> RANGE:
+    print(x)
+    <span class="hljs-keyword">if</span> x &lt; <span class="hljs-number">3</span>:
+        <span class="hljs-keyword">continue</span>
+    <span class="hljs-keyword">else</span>:
+        <span class="hljs-keyword">break</span>
+
+<span class="hljs-comment"># 등을 설정함으로써 특정 조건에 한해서 for문을 멈출 수 있다. break는 아예 for 문에서 나오는 것을 의미</span>
+
+<span class="hljs-comment"># for ~ else</span>
+<span class="hljs-keyword">for</span> <span class="hljs-keyword">in</span> RANGE:
+    반복 실행 코드
+<span class="hljs-keyword">else</span>:
+    <span class="hljs-keyword">for</span> 문이 모두 실행되었을 때 실행되는 코드
+</code></pre><p>for문의 범위로는 시퀀스 자료형 혹은 반복 가능한 자료형이여야 하며, (1)문자열, (2)리스트 혹은 튜플, (3)사전, (4)range() (5)그 외 반복 가능한 객체 등이 있다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;># 문자열 범위
+str='abcdef'
+for c in str:
+    print(c)
+
+# 리스트 범위
+list=[1,2,3,4,5]
+for c in list:
+    print(c)
+
+# 사전을 범위
+ascii_codes = {'a':97,'b':98,'c':99}
+for c in ascii_codes:
+    print(c)
+
+# range() 함수를 범위로 지정
+for c in range(10):
+    print(c)
+</code></pre>"><span class="hljs-comment"># 문자열 범위</span>
+str=<span class="hljs-string">'abcdef'</span>
+<span class="hljs-keyword">for</span> c <span class="hljs-keyword">in</span> str:
+    print(c)
+
+<span class="hljs-comment"># 리스트 범위</span>
+list=[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>]
+<span class="hljs-keyword">for</span> c <span class="hljs-keyword">in</span> list:
+    print(c)
+
+<span class="hljs-comment"># 사전을 범위</span>
+ascii_codes = {<span class="hljs-string">'a'</span>:<span class="hljs-number">97</span>,<span class="hljs-string">'b'</span>:<span class="hljs-number">98</span>,<span class="hljs-string">'c'</span>:<span class="hljs-number">99</span>}
+<span class="hljs-keyword">for</span> c <span class="hljs-keyword">in</span> ascii_codes:
+    print(c)
+
+<span class="hljs-comment"># range() 함수를 범위로 지정</span>
+<span class="hljs-keyword">for</span> c <span class="hljs-keyword">in</span> range(<span class="hljs-number">10</span>):
+    print(c)
+</code></pre><p><strong>WHILE 문</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>x = 0
+while x &amp;lt; 10:
+    x = x+1
+    if x &amp;lt; 3:
+        continue  # while 구문의 처음으로 이동하여 반복문 계속
+    print(x)
+    if x &amp;gt; 7:
+        break # while 구문을 탈출
+</code></pre>">x = <span class="hljs-number">0</span>
+<span class="hljs-keyword">while</span> x &lt; <span class="hljs-number">10</span>:
+    x = x+<span class="hljs-number">1</span>
+    <span class="hljs-keyword">if</span> x &lt; <span class="hljs-number">3</span>:
+        <span class="hljs-keyword">continue</span>  <span class="hljs-comment"># while 구문의 처음으로 이동하여 반복문 계속</span>
+    print(x)
+    <span class="hljs-keyword">if</span> x &gt; <span class="hljs-number">7</span>:
+        <span class="hljs-keyword">break</span> <span class="hljs-comment"># while 구문을 탈출</span>
+</code></pre><p>즉 3 미만 일 경우, while 문의 처음으로 돌아가게 된다. 그러나 if 조건에 의하여 3 &lt;= x &lt;= 5 일 경우, print(x)를 수행한다. 이후 x&gt;7인 경우라면 while문을 종료하게 된다. </p><h4 id="none"><a name="none" href="#none"></a>None</h4><p>None이라는 자료는 Types.NoneType이라는 값으로써 값이 존재하지 않는 변수에 대입하여 아무런 선언이 이루어지지 않는 공백의 변수를 만들어낸다. 따라서 해당 값에는 다양한 데이터 타입을 입력 할 수 있다.<br><code>val=None</code> 이라고 입력을 한 뒤에 <code>val</code>에는 어떠한 값도 선언 할 수 있다. </p><h2 id="2.-초급"><a name="2.-초급" href="#2.-초급"></a>2. 초급</h2><h4 id="연산자의-개념"><a name="연산자의-개념" href="#연산자의-개념"></a>연산자의 개념</h4><p><strong>대입: = 을 사용한다. </strong><br><strong>사칙 연산자 </strong></p><pre><code data-origin="<pre><code>+: 더하기
+-: 빼기
+*: 곱하기
+/: 나누기
+**: 거듭제곱 (2**4 = 2^4)
+</code></pre>">+: 더하기
+-: 빼기
+*: 곱하기
+/: 나누기
+**: 거듭제곱 (2**4 = 2^4)
+</code></pre><p><strong>사칙연산의 우선순위:</strong><br><code>거듭제곱 &gt; 괄호 &gt; 곱셈/나눗셈 &gt; 덧셈/뺄셈</code></p><p><strong>연산자 축약</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>a+=1 # a = a+1
+a-=5 # a = a-5
+a*=2 # a = a*2
+a/=4 # a = a/4
+</code></pre>">a+=<span class="hljs-number">1</span> <span class="hljs-comment"># a = a+1</span>
+a-=<span class="hljs-number">5</span> <span class="hljs-comment"># a = a-5</span>
+a*=<span class="hljs-number">2</span> <span class="hljs-comment"># a = a*2</span>
+a/=<span class="hljs-number">4</span> <span class="hljs-comment"># a = a/4</span>
+</code></pre><p><strong>관계 &amp; 논리 연산자</strong></p><pre><code data-origin="<pre><code>&amp;lt;관계 연산자&amp;gt;
+==: 같다
+!=: 다르다
+A &amp;lt; B: B가 A보다 크다
+A &amp;lt;= B: B가 A보다 크거나 같다
+A &amp;gt; B: A가 B보다 크다
+A &amp;gt;= A가 B보다 크거나 같다.
+
+&amp;lt;논리 연산자&amp;gt;
+&amp;amp;: AND
+|: OR
+not A: A의 논리값 반대 (TRUE &amp;lt;-&amp;gt; FALSE)
+</code></pre>">&lt;관계 연산자&gt;
+==: 같다
+!=: 다르다
+A &lt; B: B가 A보다 크다
+A &lt;= B: B가 A보다 크거나 같다
+A &gt; B: A가 B보다 크다
+A &gt;= A가 B보다 크거나 같다.
+
+&lt;논리 연산자&gt;
+&amp;: AND
+|: OR
+not A: A의 논리값 반대 (TRUE &lt;-&gt; FALSE)
+</code></pre><p><strong>비트 연산자</strong> <del>뭔가 인적성 문제처럼 보인다.</del><br>비트 연산의 경우, 비트들 간의 ‘자릿수’에 맞게 비트별로 연산을 하게 된다. </p><pre><code data-origin="<pre><code>A&amp;amp;B: A와 B비트 간 and 연산을 수행
+A|B: A와 B비트 간 or 연산을 수행
+A^B: A와 B비트 간 배타적 논리합 xor 연산을 수행
+~A: A의 비트를 반전 시킴 (A의 1의 보수를 만듦; 0 &amp;lt;-&amp;gt; 1)
+A &amp;gt;&amp;gt; n: A의 모든 비트를 n만큼 오른쪽으로 시프트
+A &amp;lt;&amp;lt; n: A의 모든 비트를 n만큼 왼쪽으로 시프트
+</code></pre>">A&amp;B: A와 B비트 간 and 연산을 수행
+A|B: A와 B비트 간 or 연산을 수행
+A^B: A와 B비트 간 배타적 논리합 xor 연산을 수행
+~A: A의 비트를 반전 시킴 (A의 1의 보수를 만듦; 0 &lt;-&gt; 1)
+A &gt;&gt; n: A의 모든 비트를 n만큼 오른쪽으로 시프트
+A &lt;&lt; n: A의 모든 비트를 n만큼 왼쪽으로 시프트
+</code></pre><h4 id="시퀀스-자료에-대한-이해"><a name="시퀀스-자료에-대한-이해" href="#시퀀스-자료에-대한-이해"></a>시퀀스 자료에 대한 이해</h4><p>시퀀스 자료는 어떠한 객체가 순서를 갖고 나열이 되는 것을 말한다. 문자열, 리스트, 튜플이 그러한 시퀀스 자료형이다. </p><table>
+<thead>
+<tr>
+<th>특성</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. 인덱싱</td>
+<td>인덱스를 통해 해당 값에 접근 할 수 있다. </td>
+</tr>
+<tr>
+<td></td>
+<td>인덱스는 0부터 시작</td>
+</tr>
+<tr>
+<td>2. 슬라이싱</td>
+<td>특정 구간의 값을 취할 수 있다. </td>
+</tr>
+<tr>
+<td></td>
+<td>구간은 인덱스 범위를 정의</td>
+</tr>
+<tr>
+<td>3. 연결</td>
+<td>+ 연산자를 이용하여 두 시퀀스 자료를 연결하여 </td>
+</tr>
+<tr>
+<td></td>
+<td>새로운 시퀀스 자료를 형성한다.</td>
+</tr>
+<tr>
+<td>4. 반복</td>
+<td>* 연산자를 이용하여 시퀀스 자료를 여러번 반복하여 </td>
+</tr>
+<tr>
+<td></td>
+<td>새로운 시퀀스 자료를 형성한다.</td>
+</tr>
+<tr>
+<td>5. 멤버체크</td>
+<td>‘in’ 키워드를 이용하여 </td>
+</tr>
+<tr>
+<td></td>
+<td>특정 값이 시퀀스에 속해 있는지 확인</td>
+</tr>
+<tr>
+<td>6. 크기정보</td>
+<td>len()을 활용하여 시퀀스 자료의 크기를 알 수 있다. </td>
+</tr>
+<tr>
+<td></td>
+<td>시퀀스 자료의 크기는 문자열은 문자의 개수 </td>
+</tr>
+<tr>
+<td></td>
+<td>리스트와 튜플은 멤버의 개수가 된다. </td>
+</tr>
+</tbody>
+</table><p><strong>1. 시퀀스 자료 인덱싱</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>strdata = &quot;Time is money!&quot;
+listdata = [1,2,[1,2,3]]
+print(strdata[5]) # i를 반환
+print(strdata[-2]) # y를 반환
+print(listdata[0]) # 1을 반환
+print(listdata[-1]) # [1,2,3]을 반환
+print(listdata[2][-1]) #[1,2,3] 중 [3]을 반환
+</code></pre>">strdata = <span class="hljs-string">"Time is money!"</span>
+listdata = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]]
+print(strdata[<span class="hljs-number">5</span>]) <span class="hljs-comment"># i를 반환</span>
+print(strdata[-<span class="hljs-number">2</span>]) <span class="hljs-comment"># y를 반환</span>
+print(listdata[<span class="hljs-number">0</span>]) <span class="hljs-comment"># 1을 반환</span>
+print(listdata[-<span class="hljs-number">1</span>]) <span class="hljs-comment"># [1,2,3]을 반환</span>
+print(listdata[<span class="hljs-number">2</span>][-<span class="hljs-number">1</span>]) <span class="hljs-comment">#[1,2,3] 중 [3]을 반환</span>
+</code></pre><p><strong>2. 시퀀스 자료 슬라이싱</strong><br><code>[시작 인덱스: 끝 인덱스: 스텝]</code><br>스텝: default ==1 </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>strdata=&quot;Time is money!&quot;
+print(strdata[1:5]) #ime 반환
+print(strdata[-3:]) #ey! 반환
+print(strdata[:-3]) #Time is mon 반환
+print(strdata[::2]) #Tm smny 반환 (0부터 2칸씩 띄어서 슬라이싱)
+</code></pre>">strdata=<span class="hljs-string">"Time is money!"</span>
+print(strdata[<span class="hljs-number">1</span>:<span class="hljs-number">5</span>]) <span class="hljs-comment">#ime 반환</span>
+print(strdata[-<span class="hljs-number">3</span>:]) <span class="hljs-comment">#ey! 반환</span>
+print(strdata[:-<span class="hljs-number">3</span>]) <span class="hljs-comment">#Time is mon 반환</span>
+print(strdata[::<span class="hljs-number">2</span>]) <span class="hljs-comment">#Tm smny 반환 (0부터 2칸씩 띄어서 슬라이싱)</span>
+</code></pre><p><strong>3. 시퀀스 자료 연결</strong><br>자료형이 동일한 두 개의 시퀀스 자료에 한 하여 +로 연결을 할 수 있다. </p><p><strong>4. 시퀀스 자료 반복</strong><br>*를 입력하여 시퀀스 자료를 반복 할 수 있다. </p><pre><code data-origin="<pre><code>list = [1,2,3]
+print(list*3) 
+# [1,2,3,1,2,3,1,2,3]
+</code></pre>">list = [1,2,3]
+print(list*3) 
+# [1,2,3,1,2,3,1,2,3]
+</code></pre><p><strong>5. 멤버 체크 이해하기(in)</strong><br><code>&lt;값&gt;in&lt;자료&gt;</code>를 통하여 해당 값이 들어 있는지 확인한다.</p><pre><code data-origin="<pre><code>listdata = [1,2,3,4]
+check = 5 in listdata
+print(check)
+#FALSE
+</code></pre>">listdata = [1,2,3,4]
+check = 5 in listdata
+print(check)
+#FALSE
+</code></pre><p><strong>6. 시퀀스 자료 크기</strong><br><code>len()</code>을 이용하여 구할 수 있다. </p><h4 id="문자열-및-문자열-포맷팅"><a name="문자열-및-문자열-포맷팅" href="#문자열-및-문자열-포맷팅"></a>문자열 및 문자열 포맷팅</h4><p>“” / ‘’ / “”” “”” / 이스케이프 문자를 이용한다.<br>“”와 ‘’이 존재하는 이유는 <code>"~~~ 'AAA' ~~~~"</code> 혹은 <code>'~~~"BBB"~~~'</code> 등을 하나의 긴 문자열로 만들 떄 필요하기 때문이다.<br><code>""" """</code>의 경우는 다음과 같은 상황에서 쓸 수 있다.</p><ul>
+<li>“”” “”” 안에서는 줄바꿈이 허용되기 때문에 블록으로써 문자열을 만들 수 있다.</li><li>또한 “”” “””는 주석을 남길 때도 블록으로 줄바꿈을 하며 남길 수 있는 장점이 있다 <mark>(STATA: /* */와 같은 형태)</mark></li></ul><p><strong>이스케이프 문자(escape)</strong><br>키보드로 표현하기 어려운 기호를 나타낼 때 사용</p><table>
+<thead>
+<tr>
+<th>이스케이프</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>\n</td>
+<td>줄 바꾸기</td>
+</tr>
+<tr>
+<td>\t</td>
+<td>탭</td>
+</tr>
+<tr>
+<td>\엔터키</td>
+<td>줄 계속(다음 줄로 계속되는 줄이라는 표시 +)</td>
+</tr>
+<tr>
+<td>\</td>
+<td>‘\’ 키 자체를 의미</td>
+</tr>
+<tr>
+<td>\’ 혹은 \”</td>
+<td>‘ 혹은 “ 키 자체를 의미</td>
+</tr>
+</tbody>
+</table><p><strong>문자열 포맷팅</strong></p><table>
+<thead>
+<tr>
+<th>포맷 문자열</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>%s</td>
+<td>문자열에 대응</td>
+</tr>
+<tr>
+<td>%c</td>
+<td>문자나 기호 한 개에 대응</td>
+</tr>
+<tr>
+<td>%f</td>
+<td>실수에 대응</td>
+</tr>
+<tr>
+<td>%d</td>
+<td>정수에 대응</td>
+</tr>
+<tr>
+<td>%%</td>
+<td>%라는 기호 자체를 표시</td>
+</tr>
+</tbody>
+</table><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from time import sleep
+for i in range(100)
+    msg = '\r진행률%d%%'%(i+1) # i+1이 %d에 할당
+    print(''*len(msg),end='')
+    print(msg,end='')
+    sleep(0.1)
+</code></pre>"><span class="hljs-keyword">from</span> time <span class="hljs-keyword">import</span> sleep
+<span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">100</span>)
+    msg = <span class="hljs-string">'\r진행률%d%%'</span>%(i+<span class="hljs-number">1</span>) <span class="hljs-comment"># i+1이 %d에 할당</span>
+    print(<span class="hljs-string">''</span>*len(msg),end=<span class="hljs-string">''</span>)
+    print(msg,end=<span class="hljs-string">''</span>)
+    sleep(<span class="hljs-number">0.1</span>)
+</code></pre><p><code>\r</code>는 캐리지 리턴을 의미하는 뜻으로써 현재 위치를 나타내는 커서를 화면 맨 앞으로 이동하라는 뜻이다. </p><h4 id="함수(함수-인자,-지역-변수와-전역-변수,-함수-리턴)"><a name="함수(함수-인자,-지역-변수와-전역-변수,-함수-리턴)" href="#함수(함수-인자,-지역-변수와-전역-변수,-함수-리턴)"></a>함수(함수 인자, 지역 변수와 전역 변수, 함수 리턴)</h4><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;># 인자와 리턴 값이 있는 경우
+def 함수이름(인자1, 인자2, ...):
+    코드 작성
+    return 결과값
+
+변수 = 함수이름(값1, 값2, ...) # 인자에 매칭
+
+# 리턴 값만 있고, 인자는 없는 경우
+def 함수이름():
+    코드 작성
+    return 결과값
+
+함수이름()
+
+# 리턴 값은 없고, 인자만 있는 경우
+def 함수이름(값1, 값2, ...):
+    코드 작성
+    return() 혹은 생략
+
+함수이름(값1, 값2,...)
+
+# 인자와 리턴값이 없는 함수
+def 함수이름():
+    코드 작성
+    return() 혹은 생략
+
+함수이름()
+</code></pre>"><span class="hljs-comment"># 인자와 리턴 값이 있는 경우</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> 함수이름<span class="hljs-params">(인자<span class="hljs-number">1</span>, 인자<span class="hljs-number">2</span>, ...)</span>:</span>
+    코드 작성
+    <span class="hljs-keyword">return</span> 결과값
+
+변수 = 함수이름(값<span class="hljs-number">1</span>, 값<span class="hljs-number">2</span>, ...) <span class="hljs-comment"># 인자에 매칭</span>
+
+<span class="hljs-comment"># 리턴 값만 있고, 인자는 없는 경우</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> 함수이름<span class="hljs-params">()</span>:</span>
+    코드 작성
+    <span class="hljs-keyword">return</span> 결과값
+
+함수이름()
+
+<span class="hljs-comment"># 리턴 값은 없고, 인자만 있는 경우</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> 함수이름<span class="hljs-params">(값<span class="hljs-number">1</span>, 값<span class="hljs-number">2</span>, ...)</span>:</span>
+    코드 작성
+    <span class="hljs-keyword">return</span>() 혹은 생략
+
+함수이름(값<span class="hljs-number">1</span>, 값<span class="hljs-number">2</span>,...)
+
+<span class="hljs-comment"># 인자와 리턴값이 없는 함수</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> 함수이름<span class="hljs-params">()</span>:</span>
+    코드 작성
+    <span class="hljs-keyword">return</span>() 혹은 생략
+
+함수이름()
+</code></pre><p>함수의 장점은 굳이 재사용의 목적이 아니더라도, 복잡한 알고리즘을 독립적인 영역에서 따로 구현 할 수 있게 되어 소스코드의 가독성을 높일 수 있게 된다. </p><p><strong>함수인자</strong></p><ol>
+<li><p>기본인자를 이용하여 값을 전달하는 방법<br><code>함수호출(a,b,c) -&gt; 함수정의(x,y,z)</code>에 매칭</p>
+</li><li><p>인자 이름을 이용해 값을 전달하는 방법<br><code>함수호출(y=b,x=a,z=c) -&gt; 함수정의(x,y,z)</code>에 매칭된다. </p>
+</li><li><p>가변 인자 튜플을 이용해 값을 전달하는 방법</p>
+</li><li>미정 키워드 인자 사전을 이용해 값을 전달하는 방법</li></ol><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>def func1(*args):
+    print(args)
+
+# 인자의 개수가 불명확한 경우 *args와 같이 *를 사용하여 활용할 경우 함수 내부에서 '튜블'로 처리가 된다. 
+
+def func2(width, height, **kwargs):
+    print(kwargs)
+
+# 키워드 인자가 불명확한 경우가 있을 경우 **를 사용하면 함수 내부에서 '사전'으로 처리하게 된다. 
+
+func1(3,5,1,5) # 튜플로 정의되었기 때문에 (3,5,1,5)라는 튜플을 반환한다. 
+func2(10,20) # width, height만 입력이 되었기 떄문에 빈 사전이 반환된다. 
+
+func2(10,20,depth=50,color='blue') # depth와 color에 대한 정보가 담긴 ['depth':50,'color':'blue']라는 사전이 포함되어 출력된다.
+</code></pre>"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">func1</span><span class="hljs-params">(*args)</span>:</span>
+    print(args)
+
+<span class="hljs-comment"># 인자의 개수가 불명확한 경우 *args와 같이 *를 사용하여 활용할 경우 함수 내부에서 '튜블'로 처리가 된다. </span>
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">func2</span><span class="hljs-params">(width, height, **kwargs)</span>:</span>
+    print(kwargs)
+
+<span class="hljs-comment"># 키워드 인자가 불명확한 경우가 있을 경우 **를 사용하면 함수 내부에서 '사전'으로 처리하게 된다. </span>
+
+func1(<span class="hljs-number">3</span>,<span class="hljs-number">5</span>,<span class="hljs-number">1</span>,<span class="hljs-number">5</span>) <span class="hljs-comment"># 튜플로 정의되었기 때문에 (3,5,1,5)라는 튜플을 반환한다. </span>
+func2(<span class="hljs-number">10</span>,<span class="hljs-number">20</span>) <span class="hljs-comment"># width, height만 입력이 되었기 떄문에 빈 사전이 반환된다. </span>
+
+func2(<span class="hljs-number">10</span>,<span class="hljs-number">20</span>,depth=<span class="hljs-number">50</span>,color=<span class="hljs-string">'blue'</span>) <span class="hljs-comment"># depth와 color에 대한 정보가 담긴 ['depth':50,'color':'blue']라는 사전이 포함되어 출력된다.</span>
+</code></pre><p><strong>전역변수와 지역변수</strong><br>전역변수: 코드 전반에 걸쳐 유효한 변수<br>지역변수: 정의되는 함수 내에서만 유효한 변수 (함수의 인자로 선언되는 변수는 함수 내에서만 유효한 지역변수이다)</p><p><strong>함수 리턴값(return)</strong><br>함수가 수행되고 나면 그 결과를 리턴하고 종료하는 경우가 많다. 이때 return 키워드를 이용하여 값을 리턴하고 함수를 종료한다. 리턴값이 여러개일 경우 튜플로 리턴값을 만들어 리턴을 하면 된다. </p><h4 id="파이썬-모듈과-패키지-이해"><a name="파이썬-모듈과-패키지-이해" href="#파이썬-모듈과-패키지-이해"></a>파이썬 모듈과 패키지 이해</h4><p>모듈은 흔히 말하는 라이브러리의 개념과 일치한다.<br>패키지 모듈은 ‘계측적인 디렉토리’ 형태로 구성한 <strong>파이썬 패키지</strong>이다. 디렉토리를 파이썬 패키지로 인식을 하려면 계측적으로 이루어져 있는 각 디렉토리마다 __init__.py라는 이름의 파이썬 파일이 있어야 한다. 해당 py의 내용은 간단한 내용만 있어도 된다. </p><p>다시 말하여, 모듈이 계층적으로 있을 경우 이들을 구분하기 위한 요소로서 __init__.py가 있고 이들이 일종의 구분을 하는 역할을 한다. </p><p><strong>모듈 import</strong><br><code>import 모듈이름</code> 혹은 <code>import 패키지이름.모듈이름</code>을 활용한다.<br><code>from 모듈이름 import 함수이름</code> 혹은 <code>from 패키지 이름 import 모듈이름</code>을 통하여 패키지.모듈.함수 등의 nested된 형태를 보다 수월하게 import할 수 있다. </p><p><code>import 모듈명 as 별명</code>을 지어 모듈명.함수를 사용 할 때 짧게 쓸 수 있다. </p><h4 id="파일-열고-닫기"><a name="파일-열고-닫기" href="#파일-열고-닫기"></a>파일 열고 닫기</h4><p><code>open(파일명, 모드)</code>를 사용한다.<code>close()</code>를 사용하여 파일을 닫는다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>f1 = open('text.txt','r')
+f2 = open('picture.jpg','rb')
+f1.close()
+f2.close()
+</code></pre>">f1 = open(<span class="hljs-string">'text.txt'</span>,<span class="hljs-string">'r'</span>)
+f2 = open(<span class="hljs-string">'picture.jpg'</span>,<span class="hljs-string">'rb'</span>)
+f1.close()
+f2.close()
+</code></pre><table>
+<thead>
+<tr>
+<th>모드</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r 또는 rt</td>
+<td>텍스트 모드로 읽기</td>
+</tr>
+<tr>
+<td>w 또는 wt</td>
+<td>텍스트 모드로 쓰기</td>
+</tr>
+<tr>
+<td>a 또는 at</td>
+<td>텍스트 모드로 파일 마지막에 추가</td>
+</tr>
+<tr>
+<td>rb</td>
+<td>바이너리 모드로 읽기</td>
+</tr>
+<tr>
+<td>wb</td>
+<td>바이너리 모드로 쓰기</td>
+</tr>
+<tr>
+<td>ab</td>
+<td>바이너리 모드로 파일 마지막에 추가하기</td>
+</tr>
+</tbody>
+</table><p><em>txt의 경우 텍스트 모드이지만, jpg 등의 경우는 바이너리 모드를 의미한다.</em></p><h4 id="클래스-개념"><a name="클래스-개념" href="#클래스-개념"></a>클래스 개념</h4><p><em>코딩책과 함께보는 코딩개념 사전 - 김현정 - 궁리 출판사 를 참고하도록 한다</em></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>class 클래스 이름:
+    # 클래스 멤버 정의
+    color = 1
+    # 클래스 메소드 정의
+        def sayHello(self):    #sayHello는 클래스를 참고(self)
+            print('Hello')
+
+obj = 클래스이름()
+
+obj.클래스멤버 #인스턴스 객체(obj)의 클래스 멤버
+obj.클래스메소드 #인스턴스 객체(obj)의 클래스 메소드
+</code></pre>"><span class="hljs-class"><span class="hljs-keyword">class</span> 클래스 이름:</span>
+    <span class="hljs-comment"># 클래스 멤버 정의</span>
+    color = <span class="hljs-number">1</span>
+    <span class="hljs-comment"># 클래스 메소드 정의</span>
+        <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">sayHello</span><span class="hljs-params">(self)</span>:</span>    <span class="hljs-comment">#sayHello는 클래스를 참고(self)</span>
+            print(<span class="hljs-string">'Hello'</span>)
+
+obj = 클래스이름()
+
+obj.클래스멤버 <span class="hljs-comment">#인스턴스 객체(obj)의 클래스 멤버</span>
+obj.클래스메소드 <span class="hljs-comment">#인스턴스 객체(obj)의 클래스 메소드</span>
+</code></pre><p><code>self.var</code>은 클래스 메소드 내에서 var을 참조하는 것을 의미<br><code>obj.var</code>은 인스턴스 객체(obj) 내에서 var을 참조하는 것을 의미</p><p><strong>클래스 소멸자</strong><br>__del__(self):를 사용할 경우, __init__를 사용한 클래스 생성자와 반대로 해당 클래스의 인스턴스 객체를 삭제한다. </p><h4 id="예외처리"><a name="예외처리" href="#예외처리"></a>예외처리</h4><p><strong>기본형태</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>try:
+    print('안녕')
+    print(var)
+except:
+    print('예외가 발생')
+</code></pre>"><span class="hljs-keyword">try</span>:
+    print(<span class="hljs-string">'안녕'</span>)
+    print(var)
+<span class="hljs-keyword">except</span>:
+    print(<span class="hljs-string">'예외가 발생'</span>)
+</code></pre><p>오류가 발생할 가능성이 큰 부분에 대하여 try~except 문을 실시하여, 오류가 발생했을 경우 단순히 stop 하는 것이 아니라 except 문으로 넘어가서 해당 작업을 수행하게 된다. </p><p><strong>try ~ except ~ else 구문</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>try:
+    print('안녕')
+    print(var)
+except:
+    print('예외가 발생')
+else:   
+    print('예외가 발생하지 않았다')
+</code></pre>"><span class="hljs-keyword">try</span>:
+    print(<span class="hljs-string">'안녕'</span>)
+    print(var)
+<span class="hljs-keyword">except</span>:
+    print(<span class="hljs-string">'예외가 발생'</span>)
+<span class="hljs-keyword">else</span>:   
+    print(<span class="hljs-string">'예외가 발생하지 않았다'</span>)
+</code></pre><p>else 구문까지 추가하는 경우 try 문이 모두 TRUE일 경우 else 구문을 반환한다.</p><p><strong> try ~ except ~ finally 구문</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>try:
+    print('안녕')
+    print(var)
+except:
+    print('예외가 발생')
+finally:  
+    print('무조건 수행')
+</code></pre>"><span class="hljs-keyword">try</span>:
+    print(<span class="hljs-string">'안녕'</span>)
+    print(var)
+<span class="hljs-keyword">except</span>:
+    print(<span class="hljs-string">'예외가 발생'</span>)
+<span class="hljs-keyword">finally</span>:  
+    print(<span class="hljs-string">'무조건 수행'</span>)
+</code></pre><p>try~except의 구문과 관계 없이 무조건 finally 이하 구문을 수행을 하게 된다. </p><p><strong> try ~ except Exception as 구문</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>try:
+    print('안녕')
+    print(var)
+except Exception as e:
+    print('e')
+</code></pre>"><span class="hljs-keyword">try</span>:
+    print(<span class="hljs-string">'안녕'</span>)
+    print(var)
+<span class="hljs-keyword">except</span> Exception <span class="hljs-keyword">as</span> e:
+    print(<span class="hljs-string">'e'</span>)
+</code></pre><p>에러가 발생할 경우 해당 error에 대한 msg를 e로 넘길 수 있는 구문이다. </p><p><strong> try ~ except 특정 상황 예외 구문</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>import time
+count =1
+
+try:
+    while TRUE:
+        print(count)
+        count +=1
+        time.sleep(0.5)
+except KeyboardInterrupt: 
+# Ctrl+C를 입력하게 되면 사용자에 의하여 코드가 중단된다. 
+    print('사용자가 중단함')
+</code></pre>"><span class="hljs-keyword">import</span> time
+count =<span class="hljs-number">1</span>
+
+<span class="hljs-keyword">try</span>:
+    <span class="hljs-keyword">while</span> TRUE:
+        print(count)
+        count +=<span class="hljs-number">1</span>
+        time.sleep(<span class="hljs-number">0.5</span>)
+<span class="hljs-keyword">except</span> KeyboardInterrupt: 
+<span class="hljs-comment"># Ctrl+C를 입력하게 되면 사용자에 의하여 코드가 중단된다. </span>
+    print(<span class="hljs-string">'사용자가 중단함'</span>)
+</code></pre><p>해당 프로그램의 경우 0.5초씩 count가 증가하게 되는데, 이는 무한 반복이기 때문에 중간에 사용자가 break를 하지 않는 이상 계속 흘러간다. 따라서 이 경우 <code>KeyboardInterrupt</code>라는 구문을 추가하여 프로그램을 멈출 수 있다. </p><h2 id="3.-중급"><a name="3.-중급" href="#3.-중급"></a>3. 중급</h2><h4 id="사용자-입력"><a name="사용자-입력" href="#사용자-입력"></a>사용자 입력</h4><p>파이썬 내장 함수 input()은 사용자가 키보드로 입력한 값을 문자열로 return을 할 수 있다. input()은 안내 문구 등을 입력 할 수 있는 문자열을 넣을 수 있고, 해당 값을 입력한 뒤에 print 할 수 있다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>k = input('값을 입력하시오')
+print('당신의 값은 &amp;lt;'+ k +'&amp;gt;입니다.')
+</code></pre>">k = input(<span class="hljs-string">'값을 입력하시오'</span>)
+print(<span class="hljs-string">'당신의 값은 &lt;'</span>+ k +<span class="hljs-string">'&gt;입니다.'</span>)
+</code></pre><p>이하 <code>+변수+</code> 을 통해 값을 리턴 할 수 있다.</p><h4 id="자료-확인-및-간단한-수학"><a name="자료-확인-및-간단한-수학" href="#자료-확인-및-간단한-수학"></a>자료 확인 및 간단한 수학</h4><p>자료형을 확인하기 위해서는 <code>type</code>이라는 명령어를 사용한다.<br><code>%</code>는 나눗셈에서 나머지만 구할 때 사용한다.<br><code>divmod(a,b)</code>는 몫과 나머지를 구하는 코드이다. (a/b = 몫, 나머지)</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>a=11113
+b=23
+ret1, ret2 = divmod(a,b)
+print('&amp;lt;%d/%d&amp;gt;는 몫이 &amp;lt;%d&amp;gt;, 나머지가 &amp;lt;%d&amp;gt;입니다'%(a,b,ret1,ret2))
+</code></pre>">a=<span class="hljs-number">11113</span>
+b=<span class="hljs-number">23</span>
+ret1, ret2 = divmod(a,b)
+print(<span class="hljs-string">'&lt;%d/%d&gt;는 몫이 &lt;%d&gt;, 나머지가 &lt;%d&gt;입니다'</span>%(a,b,ret1,ret2))
+</code></pre><p>문자열 포맷팅 <code>%</code>을 통하여 각 값들이 할당된다.</p><p><strong>16진수 표기</strong><br><code>hex()</code>는 10진수를 16진수로 반환할 때 사용한다. (기본적으로 문자열로 반환된다)</p><p>문자열 포맷팅 <code>%x</code>와 <code>%X</code>를 통하여 16진수를 표현 할 수 있다. 각각, 소문자 및 대문자로 표현이 가능하다. </p><p><strong>2진수 표기</strong><br><code>bin()</code>을 통하여 가능하다. (16진수와 마찬가지로 문자열로 반환된다)</p><p><strong>n진수를 10진수로 변환하기</strong><br><code>int('값',진수)</code>를 표현하여 n진수를 10진수로 바꿀 수 있다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>int('0x61',16)  # 97 이 반환
+int('0b11110000',2) # 240 이 반환
+</code></pre>">int(<span class="hljs-string">'0x61'</span>,<span class="hljs-number">16</span>)  <span class="hljs-comment"># 97 이 반환</span>
+int(<span class="hljs-string">'0b11110000'</span>,<span class="hljs-number">2</span>) <span class="hljs-comment"># 240 이 반환</span>
+</code></pre><p><strong>절대값</strong>: <code>abs()</code>를 사용한다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>abs3 = abs(3+4j)
+print(abs3)
+</code></pre>">abs3 = abs(<span class="hljs-number">3</span>+<span class="hljs-number">4j</span>)
+print(abs3)
+</code></pre><p><code>abs3</code>의 경우는 <code>3+4i</code>의 복소수를 절대값으로 만든다. 복소수의 절대값은 <code>(실수부^2 + 허수부^2)^(1/2)</code>으로 이루어진다. (즉, <code>(3^2+4^2)^(1/2)</code>를 반환하여 5가 나온다.)</p><p><strong>반올림</strong>: <code>round</code>를 사용한다.(예: <code>round(16.552,2)</code>;<code>round(1118,-1)</code>)</p><h4 id="데이터-타입-변경"><a name="데이터-타입-변경" href="#데이터-타입-변경"></a>데이터 타입 변경</h4><p><strong>실수형 자료를 정수형 자료로 변환하기</strong>: <code>int()</code>를 사용한다. 기본적으로 버림을 실시한다. </p><p><strong>정수형 자료를 실수형 자료로 변환하기</strong>: <code>float()</code>를 사용한다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>fdta = float(10)
+print(fdta) # 10.0이 출력된다
+</code></pre>">fdta = float(<span class="hljs-number">10</span>)
+print(fdta) <span class="hljs-comment"># 10.0이 출력된다</span>
+</code></pre><p><strong> 정수 리스트에서 소수</strong>(prime number)<strong>만 걸러내기</strong>: <code>filter()</code>를 사용한다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>#예시 코드
+def getPrime(x):
+    for i in range(2, x-1):
+        if x%i ==0:
+            break
+        else:
+            return x
+
+listdata = [117,118,119,120,121]
+ret = filter(getPrime,listdata) # filter에 걸리는 조건, 필터값으로 이뤄진다. 
+print(list(ret)
+</code></pre>"><span class="hljs-comment">#예시 코드</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">getPrime</span><span class="hljs-params">(x)</span>:</span>
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">2</span>, x-<span class="hljs-number">1</span>):
+        <span class="hljs-keyword">if</span> x%i ==<span class="hljs-number">0</span>:
+            <span class="hljs-keyword">break</span>
+        <span class="hljs-keyword">else</span>:
+            <span class="hljs-keyword">return</span> x
+
+listdata = [<span class="hljs-number">117</span>,<span class="hljs-number">118</span>,<span class="hljs-number">119</span>,<span class="hljs-number">120</span>,<span class="hljs-number">121</span>]
+ret = filter(getPrime,listdata) <span class="hljs-comment"># filter에 걸리는 조건, 필터값으로 이뤄진다. </span>
+print(list(ret)
+</code></pre><p><strong>최대값, 최소값</strong>: <code>max()</code>와 <code>min()</code>을 사용한다.<br>단순히 숫자만 걸 수 있는 것이 아니라 string data에서도 확인 할 수 있다. 이때는 알파벳을 기준으로 그 순서를 찾는다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>txt = 'Alolofthingsoccureachday'
+maxval = max(txt) # 'y'가 출력된다
+minval = min(txt) # 'A'가 출력된다
+
+maxval = max(2+3,2*3,2**3,3**2) # 3**2(=9)를 반환한다.
+minval = min('abz','a12') # 'a12'를 반환한다.
+</code></pre>">txt = <span class="hljs-string">'Alolofthingsoccureachday'</span>
+maxval = max(txt) <span class="hljs-comment"># 'y'가 출력된다</span>
+minval = min(txt) <span class="hljs-comment"># 'A'가 출력된다</span>
+
+maxval = max(<span class="hljs-number">2</span>+<span class="hljs-number">3</span>,<span class="hljs-number">2</span>*<span class="hljs-number">3</span>,<span class="hljs-number">2</span>**<span class="hljs-number">3</span>,<span class="hljs-number">3</span>**<span class="hljs-number">2</span>) <span class="hljs-comment"># 3**2(=9)를 반환한다.</span>
+minval = min(<span class="hljs-string">'abz'</span>,<span class="hljs-string">'a12'</span>) <span class="hljs-comment"># 'a12'를 반환한다.</span>
+</code></pre><h4 id="문자열-연습"><a name="문자열-연습" href="#문자열-연습"></a>문자열 연습</h4><p>문자열에서 <code>특정 위치</code> 및 <code>특정 구간</code>의 문자를 얻는 방법은 인덱싱을 활용하는 것이다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>txt1 = 'A tale that was not right'
+txt2 = '이 또한 지나가리라.'
+print(txt1[5]) # e가 출력됨
+print(txt2[-2]) #리 가 출력됨
+print(txt1[3:7]) # 'ale'가 출력됨
+print(txt1[:6]) # 'A tale'이 출력됨
+print(txt2[-4:1]) # 가리라 가 출력됨
+
+txt = 'python'
+for i in range(len(text)):
+    print(txt[:i+1])
+# i 번째의 값에 따라서 p, py, pyt, pyth ... 이 반환된다.
+
+print(txt[::2]) # 1번째부터 2칸마다 (:2) 슬라이싱 하며 문자를 반환 (홀수 번째 문자만 반환) (python은 인덱싱을 0부터 시작한다)
+print(txt[1::2]) # 2번째부터 2칸마다 슬라이싱하며 짝수번째 문자 반환
+print(txt[::-1]) # 문자열을 뒤집는다.
+</code></pre>">txt1 = <span class="hljs-string">'A tale that was not right'</span>
+txt2 = <span class="hljs-string">'이 또한 지나가리라.'</span>
+print(txt1[<span class="hljs-number">5</span>]) <span class="hljs-comment"># e가 출력됨</span>
+print(txt2[-<span class="hljs-number">2</span>]) <span class="hljs-comment">#리 가 출력됨</span>
+print(txt1[<span class="hljs-number">3</span>:<span class="hljs-number">7</span>]) <span class="hljs-comment"># 'ale'가 출력됨</span>
+print(txt1[:<span class="hljs-number">6</span>]) <span class="hljs-comment"># 'A tale'이 출력됨</span>
+print(txt2[-<span class="hljs-number">4</span>:<span class="hljs-number">1</span>]) <span class="hljs-comment"># 가리라 가 출력됨</span>
+
+txt = <span class="hljs-string">'python'</span>
+<span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(len(text)):
+    print(txt[:i+<span class="hljs-number">1</span>])
+<span class="hljs-comment"># i 번째의 값에 따라서 p, py, pyt, pyth ... 이 반환된다.</span>
+
+print(txt[::<span class="hljs-number">2</span>]) <span class="hljs-comment"># 1번째부터 2칸마다 (:2) 슬라이싱 하며 문자를 반환 (홀수 번째 문자만 반환) (python은 인덱싱을 0부터 시작한다)</span>
+print(txt[<span class="hljs-number">1</span>::<span class="hljs-number">2</span>]) <span class="hljs-comment"># 2번째부터 2칸마다 슬라이싱하며 짝수번째 문자 반환</span>
+print(txt[::-<span class="hljs-number">1</span>]) <span class="hljs-comment"># 문자열을 뒤집는다.</span>
+</code></pre><p><strong>문자열 합치기 및 반복하기</strong><br><code>문자열1 + 문자열2</code>를 사용하면 된다.<br><code>문자열3 * n</code>을 할 경우, 문자열3이 n번 반복된다. </p><p><strong>문자열 내에서 특정 문자(열)가 있는지 확인하기</strong><br><code>in</code>을 사용한다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>msg = input('임의의 문장을 입력하시오')
+if 'a' in msg: # 문자열 내에서 in을 활용하여 a 존재 여부를 확인한다. 이는 단순히 문자 뿐만 아니라 'is'등과 같은 문자열도 확인 할 수 있다.
+    print('a가 있음')
+else:
+    print('a가 없음')
+</code></pre>">msg = input(<span class="hljs-string">'임의의 문장을 입력하시오'</span>)
+<span class="hljs-keyword">if</span> <span class="hljs-string">'a'</span> <span class="hljs-keyword">in</span> msg: <span class="hljs-comment"># 문자열 내에서 in을 활용하여 a 존재 여부를 확인한다. 이는 단순히 문자 뿐만 아니라 'is'등과 같은 문자열도 확인 할 수 있다.</span>
+    print(<span class="hljs-string">'a가 있음'</span>)
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">'a가 없음'</span>)
+</code></pre><p><strong>문자열 길이 구하기</strong>: <code>len()</code>을 활용한다.<br>만약 바이트로 반환을 하고자 한다면, <code>len(X,encoder())</code>를 활용한다.</p><p><em>한글과 영문의 경우 문자열의 길이는 같지만, 할당되는 바이트가 다르기 때문에 이러한 방식으로 활용한다. 즉,</em> <code>encode()</code><em>는 유니코드의 문자열을 바이트 객체로 변환하는 조건이다</em></p><p><strong>문자열이 알파벳인지 검색하기</strong>: <code>isalpha()</code>를 활용한다.<br><strong>문자열이 숫자인지 검색하기</strong>: <code>isdigit()</code>을 활용한다.<br><strong>문자열이 숫자 혹은 알파벳인지 검색하기</strong>: <code>isalnum()</code>를 활용한다.</p><p><strong>문자열에서 대소문자 변환하기</strong>: <code>upper()</code>와 <code>lower()</code>를 쓴다.<br><strong>문자열에서 좌우 공백 제거하기</strong>: <code>lstrip()</code>(좌측 공백만 제거), <code>rstrip()</code>(우측 공백만 제거), <code>strip()</code>(양측 공백 제거)</p><p><strong>문자열을 수치형 자료로 변환하기</strong>: <code>int()</code>와 <code>float()</code>을 쓴다.<br><strong>수치형 자료를 문자열로 변환하기</strong>: <code>str()</code>을 쓴다.</p><p><strong>문자열에 있는 문자(열) 개수 구하기</strong>: <code>count()</code>를 쓴다.<br>예시: <code>txt.count('')</code>:의 경우 txt라는 문자열에서 공란의 개수를 찾는다. </p><p><strong>문자열에서 특정 문자(열) 위치 찾기</strong>: <code>find()</code>를 쓴다.<br>예시: <code>txt.find('e',30)</code>의 경우 txt 라는 문자열에서 30번째 이후에 있는 문자열 중 e의 위치가 몇 번째인지 찾는다. 두 번째 인자는 생략이 가능하다. </p><p><strong>문자열을 특정 문자(열)로 분류하기</strong>: <code>split()</code>를 쓴다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>url='http://www.naver.com'
+log='name:홍길동 age:17 gender:male nation:Korea'
+
+ret1 = url.split('/') # /을 기준으로 문자열을 반환한다.
+ret2 = log.split() # log에는 '띄어쓰기'와 ':'가 혼재되어 있기 때문에 먼저 띄어쓰기를 분류한다. (split()만 쓰면 된다). 
+
+for data in ret2:
+    d1, d2 = data.split(':')
+    print('%s -&amp;gt; %s'%(d1,d2))
+
+# 이후 for문을 통하여 ':'을 기준으로 데이터를 나누어 d1, d2에 할당한다.
+</code></pre>">url=<span class="hljs-string">'http://www.naver.com'</span>
+log=<span class="hljs-string">'name:홍길동 age:17 gender:male nation:Korea'</span>
+
+ret1 = url.split(<span class="hljs-string">'/'</span>) <span class="hljs-comment"># /을 기준으로 문자열을 반환한다.</span>
+ret2 = log.split() <span class="hljs-comment"># log에는 '띄어쓰기'와 ':'가 혼재되어 있기 때문에 먼저 띄어쓰기를 분류한다. (split()만 쓰면 된다). </span>
+
+<span class="hljs-keyword">for</span> data <span class="hljs-keyword">in</span> ret2:
+    d1, d2 = data.split(<span class="hljs-string">':'</span>)
+    print(<span class="hljs-string">'%s -&gt; %s'</span>%(d1,d2))
+
+<span class="hljs-comment"># 이후 for문을 통하여 ':'을 기준으로 데이터를 나누어 d1, d2에 할당한다.</span>
+</code></pre><p><strong>문자를 특정 문자(열)로 결합하기</strong>: <code>join()</code>함수를 쓴다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>loglist=['2018/06/27', '200', 'ok', '이 또한 지나가리라'] # 문자열이 아니라, &quot;문자열을 요소로 갖는&quot; 리스트여야 한다.
+bond = ';' # 결합할 문자열을 변수로 지정을 해야한다. 
+log= bond.join(loglist) # 해당 문자열을 기준으로 list 값들을 결합한다.
+</code></pre>">loglist=[<span class="hljs-string">'2018/06/27'</span>, <span class="hljs-string">'200'</span>, <span class="hljs-string">'ok'</span>, <span class="hljs-string">'이 또한 지나가리라'</span>] <span class="hljs-comment"># 문자열이 아니라, "문자열을 요소로 갖는" 리스트여야 한다.</span>
+bond = <span class="hljs-string">';'</span> <span class="hljs-comment"># 결합할 문자열을 변수로 지정을 해야한다. </span>
+log= bond.join(loglist) <span class="hljs-comment"># 해당 문자열을 기준으로 list 값들을 결합한다.</span>
+</code></pre><p><strong>문자열에서 특정 문자(열)를 다른 문자(열)로 바꾸기</strong>:<code>replace()</code>를 쓴다.<br><code>변경할변수.replace('변경할문자','변경후문자')</code>를 사용한다. </p><p><strong>문자열을 바이트 객체로 바꾸기</strong>: <code>encode()</code>를 쓴다.<br>파이썬에서 모든 문자열은 유니코드 문자열로 취급되기 때문에 해당 문자열은 각 메모리에 기록되는 바이트 객체의 값이 정해져 있다. 따라서 encode() 메소드는 유니코드의 문자열을 encode()에서 지정하는 인자의 문자열로 변경을 하며, default 값으로는 UTF-8 인코딩 방식의 바이트 객체로 변환을 한다. </p><p>반대의 경우는 <code>decode()</code>가 있다. </p><p><strong>문자열을 정렬하기</strong>: <code>sorted()</code>와 <code>join()</code>을 사용한다.<br>입력된 개별 문자를 정렬하는 것이다. 알파벳, 한글 순으로 정렬된다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>strdta = input('정렬할 문자열을 입력하세요:')
+ret1 = sorted(strdta) # strdta에 특정 문자열이 입력된 뒤에 오름차순으로 정렬한다. 
+ret2 = sorted(strdta, reverse=True) # 내림차순으로 정렬한다. 
+
+ret1 = ''.join(ret1) # 정렬한 뒤의 리스트를 반환한다. (오름차순)
+ret2 = ''.join(ret2) # 정렬한 뒤의 리스트를 반환한다. (내림차순)
+</code></pre>">strdta = input(<span class="hljs-string">'정렬할 문자열을 입력하세요:'</span>)
+ret1 = sorted(strdta) <span class="hljs-comment"># strdta에 특정 문자열이 입력된 뒤에 오름차순으로 정렬한다. </span>
+ret2 = sorted(strdta, reverse=<span class="hljs-keyword">True</span>) <span class="hljs-comment"># 내림차순으로 정렬한다. </span>
+
+ret1 = <span class="hljs-string">''</span>.join(ret1) <span class="hljs-comment"># 정렬한 뒤의 리스트를 반환한다. (오름차순)</span>
+ret2 = <span class="hljs-string">''</span>.join(ret2) <span class="hljs-comment"># 정렬한 뒤의 리스트를 반환한다. (내림차순)</span>
+</code></pre><h4 id="리스트-연습"><a name="리스트-연습" href="#리스트-연습"></a>리스트 연습</h4><p><strong>순차적인 정수 리스트 만들기</strong>: <code>range()</code>함수를 쓴다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>range1 = range(10) # [0,1,2,...,8,9] 출력
+range2 = range(10,20) # [10,11,12,...,18,19] 출력
+</code></pre>">range1 = range(<span class="hljs-number">10</span>) <span class="hljs-comment"># [0,1,2,...,8,9] 출력</span>
+range2 = range(<span class="hljs-number">10</span>,<span class="hljs-number">20</span>) <span class="hljs-comment"># [10,11,12,...,18,19] 출력</span>
+</code></pre><p>즉, <code>range(이상, 미만)</code>을 반환한다. </p><p><strong>리스트에서 특정 위치의 요소 얻기</strong><br>R에서 리스트 내 위치에 접근하는 방식과 동일하다. 그러나 R은 1부터 인덱싱이 시작되지만, Python은 0부터 인덱싱이 시작된다. 이 부분에서 두 프로그램이 갖고 있는 목적에 차이가 있음을 알 수 있다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>listdata = [1,2,'a','b','c',[4,5,6]]
+val1 = listdata[1] # 2 반환
+val2 = listdata[5][1] # 5 반환
+</code></pre>">listdata = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-string">'a'</span>,<span class="hljs-string">'b'</span>,<span class="hljs-string">'c'</span>,[<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>]]
+val1 = listdata[<span class="hljs-number">1</span>] <span class="hljs-comment"># 2 반환</span>
+val2 = listdata[<span class="hljs-number">5</span>][<span class="hljs-number">1</span>] <span class="hljs-comment"># 5 반환</span>
+</code></pre><p><strong>리스트에서 특정 요소의 위치 구하기</strong>: <code>index()</code>를 사용.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>solarsys = ['태양','수성','금성','지구',화성','지구']
+planet = '지구'
+pos = solarsys.index(planet)
+print('%s은(는) 태양계에서 %d번째에 위치하고 있습니다.'%(planet,pos)) # 바로 처음에 나오는 '지구'의 위치인 3을 반환한다. 
+pos2 = solarsys.index(planet,4)
+print('%s은(는) 태양계에서 %d번째에 위치하고 있습니다.'%(planet,pos)) # 4 이후를 기준으로 indexing을 하여 5가 반환된다.
+</code></pre>">solarsys = ['태양','수성','금성','지구',화성','지구']
+planet = '지구'
+pos = solarsys.index(planet)
+print('%s은(는) 태양계에서 %d번째에 위치하고 있습니다.'%(planet,pos)) # 바로 처음에 나오는 '지구'의 위치인 3을 반환한다. 
+pos2 = solarsys.index(planet,4)
+print('%s은(는) 태양계에서 %d번째에 위치하고 있습니다.'%(planet,pos)) # 4 이후를 기준으로 indexing을 하여 5가 반환된다.
+</code></pre><p><strong>리스트에서 특정 위치의 요소를 변경하기</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>pos = solarsys.index(planet)
+solarsys[pos] = 'Mars'
+</code></pre>">pos = solarsys.index(planet)
+solarsys[pos] = <span class="hljs-string">'Mars'</span>
+</code></pre><p>즉, 위의 예에서 볼 경우, planet으로 지정된 index를 pos로 할당을 한 뒤에, 해당 pos에 대한 값을 <code>Mars</code>로 변경을 하는 것이다. </p><p><strong>리스트에서 특정 구간에 있는 요소 추출하기</strong><br><strong>리스트에서 짝수 번째 요소만 추출하기</strong><br>이 두 가지의 경우는 리스트에 기초적인 슬라이싱을 활용하면 된다.</p><p><strong>리스트 요소 순서를 역순으로 만들기1</strong>: <code>reverse()</code>의 경우는 원본 리스트 자체가 변경된다. (예: <code>listdata.reverse()</code>를 입력함으로써 <code>listdata</code>를 바꾸어준다.)</p><p><strong>리스트 요소 순서를 역순으로 만들기2</strong> <code>reversed()</code>의 경우는 원본 리스트에는 아무런 영향을 주지 않는다. (예: <code>ret1 = reversed(listdata)</code>라고 별도로 함수를 할당해주어야 한다.)</p><p><strong>리스트 합치기</strong>: <code>+</code>를 써서 리스트를 더해버리면 된다.<br><strong>리스트 반복하기</strong>: <code>*</code>을 써서 리스트를 반복 할 수 있다. </p><p><strong>리스트에 요소 추가하기</strong>: <code>append()</code>를 사용한다. (예: <code>listdata.append(txt)</code>를 할 경우 listdata라는 기존 변수에 txt라는 리스트 요소를 추가 하게 된다. 즉, listdata는 리스트여야 하고, txt는 모든 형태의 자료가 가능하다)</p><p><strong>리스트의 특정 위치에 요소 삽입하기</strong>: <code>insert()</code>를 사용한다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>solarsys = ['태양','수성','금성','지구',화성','지구']
+pos = solarsys.index('금성')
+solarsys.insert(pos,'소행성') # pos라는 index인 금성 뒤에 '소행성'이라는 새로운 요소가 추가된다.
+</code></pre>">solarsys = ['태양','수성','금성','지구',화성','지구']
+pos = solarsys.index('금성')
+solarsys.insert(pos,'소행성') # pos라는 index인 금성 뒤에 '소행성'이라는 새로운 요소가 추가된다.
+</code></pre><p><strong>리스트의 특정 위치의 요소 제거하기</strong>: <code>del()</code>을 사용한다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>del solarsys[0] # 태양이 삭제된다 (0은 맨 처음을 의미한다)
+del solarsys[-2] # 화성이 삭제된다 (-1은 맨 마지막을 의미한다)
+</code></pre>"><span class="hljs-keyword">del</span> solarsys[<span class="hljs-number">0</span>] <span class="hljs-comment"># 태양이 삭제된다 (0은 맨 처음을 의미한다)</span>
+<span class="hljs-keyword">del</span> solarsys[-<span class="hljs-number">2</span>] <span class="hljs-comment"># 화성이 삭제된다 (-1은 맨 마지막을 의미한다)</span>
+</code></pre><p><strong>리스트에서 특정 요소 제거하기</strong>: <code>remove()</code>를 사용한다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>solarsys.remove('태양')
+</code></pre>">solarsys.remove(<span class="hljs-string">'태양'</span>)
+</code></pre><p>이 경우 ‘태양’이라는 요소를 제거한다. (모두 제거하는지는 잘 모르겠지만, 그럴 것 같다)</p><p><strong>리스트에서 특정 구간에 있는 모든 요소 제거하기</strong>: indexing 방식을 활용하면 된다. </p><p><strong>리스트에 있는 요소 개수 구하기</strong>: <code>len()</code>을 사용한다. <code>len(리스트변수)</code>를 입력하게 되면, 해당 리스트의 요소 개수를 반환한다.</p><p><strong>리스트에서 특정 요소 개수 구하기</strong>: <code>count()</code>를 사용한다.<br>(예: <code>리스트데이터.count(요소)</code>를 할 경우 해당 데이터에서 요소의 개수를 모두 구한다.)</p><p><strong>리스트 제거하기</strong>: <code>del()</code>을 사용 (예: <code>del listdata</code>)</p><p><strong>리스트 요소 정렬하기1</strong>: <code>sort()</code>를 사용하며, 원본이 변한다.<br>(예: <code>namelist.sort()</code>를 할 경우, namelist라는 변수 내에 있는 요소가 sort된다.)<br><strong>리스트 요소 정렬하기2</strong>: <code>sorted()</code>를 사용하며, 원본이 변하지 않는다. </p><p><strong>리스트 요소 무작위로 섞기</strong>: <code>shuffle()</code>를 사용한다. random 모듈을 바탕으로 import를 해야 한다. 즉, <code>from random import shuffle</code>을 사용한 뒤 사용을 할 수 있다. </p><p><strong>리스트의 모든 요소를 인덱스와 쌍으로 추출하기</strong>: <code>enumerate()</code>를 사용하는데, <code>enumerate()</code>는 시퀀스 자료형을 인자로 받아 각 요소를 인덱스와 함께 쌍으로 추출 할 수 있는 반복 가능한 객체를 리턴한다. <code>enumerate()</code>는 for 문과 자주 사용되지만, <code>list()</code>를 이용하여 리스트 객체로 변환 할 수 있다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>solarsys = ['태양','수성','금성','지구',화성','지구']
+ret = list(enumerate(solarsys))
+# [(0,'태양'),(1,'수성'),...,]의 형식으로 반환한다.
+</code></pre>">solarsys = ['태양','수성','금성','지구',화성','지구']
+ret = list(enumerate(solarsys))
+# [(0,'태양'),(1,'수성'),...,]의 형식으로 반환한다.
+</code></pre><p><strong>리스트의 모든 요소의 합 구하기</strong>: <code>sum(리스트)</code>를 통해 구할 수 있다.</p><p><strong>리스트 요소가 모두 참인지 확인하기</strong>: <code>all</code>, <code>any</code>의 조건을 통하여 구한다. </p><h4 id="사전-연습"><a name="사전-연습" href="#사전-연습"></a>사전 연습</h4><p><strong>사전에 요소 추가하기</strong><br>사전은 <code>키:값</code>이 요소인 순서가 없는 자료형이다. 따라서 사전은 인덱스가 아닌 주어진 <code>키</code>값을 통해 접근을 할 수 있다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>solar1 = ['태양','수성','금성','지구',화성','지구']
+solar2 = ['sun','mercury','venus','earth','mars','earth']
+
+solardict=()
+for i, k in enumerate(solar1):
+    val = solar2[i] # solar2의 i 인덱스 값을 val에 입력을 한다.
+    solardict[k] = val # 키 값을 더 할 때 사용한다.
+</code></pre>">solar1 = ['태양','수성','금성','지구',화성','지구']
+solar2 = ['sun','mercury','venus','earth','mars','earth']
+
+solardict=()
+for i, k in enumerate(solar1):
+    val = solar2[i] # solar2의 i 인덱스 값을 val에 입력을 한다.
+    solardict[k] = val # 키 값을 더 할 때 사용한다.
+</code></pre><p>val에 입력된 값을 solardict[k]에 개별 key 값으로 매칭을 시킨 뒤 solardict(사전)을 완성한다. (결과는 ‘수성’:’mercury’ … 등으로 나온다. 사전은 순서가 없기 때문에 solar1:solar2 각각의 인덱스 순서대로 매칭된다고 보면 된다.)</p><p><strong>사전의 특정 요소값 변경하기</strong><br><code>solardict['수성'] = 'MERCURY'</code>라고 입력을 할 경우, 수성이라는 키값에 대응하는 값을 변경 할 수 있다.</p><p><strong>사전의 특정 요소 제거하기</strong>: <code>del()</code>을 사용한다.<br><code>del solardict['수성']</code>을 할 경우, ‘수성’:’mercury’라는 키 값과 요소가 제거가 된다. </p><p><strong>사전의 모든 요소 제거하기</strong>: <code>clear()</code>를 사용한다.<br><code>solardict.clear()</code>를 사용하면 된다. solardict이라는 사전 내 모든 키와 요소를 제거한다.</p><p><strong>사전에서 키만 추출하기</strong>: <code>keys()</code>를 사용한다.<br><code>사전명.keys()</code>를 통하여 출력을 한다.<br>즉, 해당 모듈은 사전명의 모든 키를 추출한 뒤에, dict_keys 사전 뷰 객체로 리턴을 하는 것이다. 순서가 없기 떄문에 반환 순서는 다를 수 있다. </p><p><strong>사전에서 값만 추출하기</strong>: <code>values()</code>를 사용한다.<br><code>사전명.values()</code>를 통하여 출력을 한다. </p><p><strong>사전 요소를 모두 추출하기</strong>: <code>items()</code>를 사용한다.<br><code>사전명.items()</code>를 통하여 출력을 한다. 리턴 값은 키와 값 모두가 반환이 된다. </p><p><strong>사전에 특정 키가 존재하는지 확인하기</strong>:<code>in</code>을 사용한다. 문자열과 같은 방식으로 활용된다. </p><p><strong>사전 정렬하기</strong>: <code>sorted()</code></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>names=['Mary':10999,'Sams':2111,'Aimy':9778]
+ret1 = sorted(names) # names 키의 오름차순으로 정렬
+
+def f1(x):
+    return x[0]
+
+def f2(x):
+    return x[1]
+
+ret2 = sorted(names.items(),key=f1) # f1 함수에 의하여 0번째 인덱스 키 값를 기준으로 정렬
+ret3 = sorted(names.items(),key=f2) # f2에 의해 1번째 인덱스 키 값을 기준으로 정렬
+ret4 = sorted(names.items(),key=f2,reverse=True) # 내림차순으로 정렬
+</code></pre>">names=[<span class="hljs-string">'Mary'</span>:<span class="hljs-number">10999</span>,<span class="hljs-string">'Sams'</span>:<span class="hljs-number">2111</span>,<span class="hljs-string">'Aimy'</span>:<span class="hljs-number">9778</span>]
+ret1 = sorted(names) <span class="hljs-comment"># names 키의 오름차순으로 정렬</span>
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f1</span><span class="hljs-params">(x)</span>:</span>
+    <span class="hljs-keyword">return</span> x[<span class="hljs-number">0</span>]
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f2</span><span class="hljs-params">(x)</span>:</span>
+    <span class="hljs-keyword">return</span> x[<span class="hljs-number">1</span>]
+
+ret2 = sorted(names.items(),key=f1) <span class="hljs-comment"># f1 함수에 의하여 0번째 인덱스 키 값를 기준으로 정렬</span>
+ret3 = sorted(names.items(),key=f2) <span class="hljs-comment"># f2에 의해 1번째 인덱스 키 값을 기준으로 정렬</span>
+ret4 = sorted(names.items(),key=f2,reverse=<span class="hljs-keyword">True</span>) <span class="hljs-comment"># 내림차순으로 정렬</span>
+</code></pre><h4 id="문자-코드"><a name="문자-코드" href="#문자-코드"></a>문자 코드</h4><p><strong>문자 코드값 구하기</strong>: <code>ord()</code> - 입력된 문자에 대한 아스키(ASCII) 코드 값이 결과로 나온다.</p><p><strong>코드값에 대응하는 문자 얻기</strong>: <code>chr()</code> - <code>ord()</code>와 반대되는 기능을 가진 함수이다. </p><p><strong>문자열로 된 식을 실행하기</strong>: <code>eval()</code><br><code>eval()</code>내에 특정한 string 값이 있을 경우, 해당 string 자체를 실행을 한다. 예를 들어 <code>expr1 = '2+3'</code>이 있고, <code>eval(expr1)</code>을 실행 할 경우, <code>2+3</code>을 실행한다.</p><h4 id="lambda-함수"><a name="lambda-함수" href="#lambda-함수"></a>lambda 함수</h4><p><strong>이름 없는 한줄짜리 함수 만들기</strong>: <code>lambda()</code><br><code>lambda()</code>의 경우는 일반적인 함수 정의 방법(<code>def 함수이름(인자...) + 실행코드</code>)와 다르게 함수 이름 없이 한줄로 간단하게 정의되는 함수이다.<br><code>lambda 인자, 인자, ...: 실행코드</code>로 구성된다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>add = lambda x, y: x+y # 함수의 이름을 별도의 변수로써 구성을 하는 것이다. (R에서도 가능할까?)
+ret=add(1,3)
+
+funcs=[lambda x: x+'.pptx',lambda x: x+'.docx']
+ret1 = funcs[0]('Intro')
+ret2 = funcs[1]('Report')
+</code></pre>">add = <span class="hljs-keyword">lambda</span> x, y: x+y <span class="hljs-comment"># 함수의 이름을 별도의 변수로써 구성을 하는 것이다. (R에서도 가능할까?)</span>
+ret=add(<span class="hljs-number">1</span>,<span class="hljs-number">3</span>)
+
+funcs=[<span class="hljs-keyword">lambda</span> x: x+<span class="hljs-string">'.pptx'</span>,<span class="hljs-keyword">lambda</span> x: x+<span class="hljs-string">'.docx'</span>]
+ret1 = funcs[<span class="hljs-number">0</span>](<span class="hljs-string">'Intro'</span>)
+ret2 = funcs[<span class="hljs-number">1</span>](<span class="hljs-string">'Report'</span>)
+</code></pre><p><strong>인자를 바꾸어 함수를 반복 호출하여 결과 값 얻기</strong>: <code>map()</code></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>f = lambda x: x*x
+args = [1,2,3,4,5]
+ret = map(f, args)
+</code></pre>">f = <span class="hljs-keyword">lambda</span> x: x*x
+args = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>]
+ret = map(f, args)
+</code></pre><p><code>map()</code>함수는 집합 A와 함수 f가 주어지면, 집합 B를 쉽게 구해주는 함수와 동일한 역할을 한다. 즉, <code>map(f, args)</code>가 될 경우, 정의된 <code>f함수</code>에 <code>args</code> 리스트 값들을 하나씩 대응한 뒤에 <code>ret</code>에 입력을 하는 것을 의미한다. </p><h2 id="4.-응용"><a name="4.-응용" href="#4.-응용"></a>4. 응용</h2><h4 id="파일-입출력"><a name="파일-입출력" href="#파일-입출력"></a>파일 입출력</h4><p><strong> 텍스트 파일을 읽고 출력하기</strong>: <code>read()</code></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>f = open('stockcode.txt','r')
+data = f.read()
+f.close()
+</code></pre>">f = open(<span class="hljs-string">'stockcode.txt'</span>,<span class="hljs-string">'r'</span>)
+data = f.read()
+f.close()
+</code></pre><p><strong><em>with문과 함께 사용할 경우, 해당 f를 닫을 필요가 없다</em></strong><br>참고: <a href="https://wikidocs.net/26#with"></a><a href="https://wikidocs.net/26#with">https://wikidocs.net/26#with</a></p><p><strong>텍스트 파일을 한줄씩 읽고 출력하기1</strong>: <code>readline()</code><br><strong>텍스트 파일을 한줄식 읽고 출력하기2</strong>: <code>readlines()</code></p><p><code>readline()</code>과 <code>readlines()</code>간의 차이는 <code>readline()</code>의 경우는 파일을 한줄씩 읽어서 작업을 하는 것이다. 만약 읽어오는 텍스트를 한 번에 읽었을 때 메모리 문제가 야기될 수 있을 때 사용하는데 적합하다. 그에 반하여 <code>readlines()</code>의 경우는 모든 텍스트의 line들을 하나의 리스트로 만든다. 따라서 메모리 문제가 야기될 수도 있다.</p><p><strong>화면에서 사용자 입력을 받고 파일로 쓰기</strong>: <code>write()</code>를 쓴다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>text = input('파일에 저장할 내용을 입력하시오')
+f = open('mydata.txt','w') # 파일을 덮어쓰게 된다. 
+f.write(text)
+f.close()
+</code></pre>">text = input(<span class="hljs-string">'파일에 저장할 내용을 입력하시오'</span>)
+f = open(<span class="hljs-string">'mydata.txt'</span>,<span class="hljs-string">'w'</span>) <span class="hljs-comment"># 파일을 덮어쓰게 된다. </span>
+f.write(text)
+f.close()
+</code></pre><p><strong>텍스트 파일에 한줄씩 쓰기</strong>: <code>writelines()</code>을 쓴다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>count = 1
+data = []
+print('파일에 내용을 저장을 하려면 ENTER를 누르세요')
+while True:
+    text = input('[%d] 파일에 저장할 내용을 입력: ' %count)
+    if text =='':
+        break
+    data.append(text + '\n')
+    count += 1
+
+f = open('mydata.txt','w')
+f.writelines(data) # 위의 while loop를 통하여 append된 모든 텍스트 리스트를 하나의 텍스트로 write한다. 
+f.close()
+</code></pre>">count = <span class="hljs-number">1</span>
+data = []
+print(<span class="hljs-string">'파일에 내용을 저장을 하려면 ENTER를 누르세요'</span>)
+<span class="hljs-keyword">while</span> <span class="hljs-keyword">True</span>:
+    text = input(<span class="hljs-string">'[%d] 파일에 저장할 내용을 입력: '</span> %count)
+    <span class="hljs-keyword">if</span> text ==<span class="hljs-string">''</span>:
+        <span class="hljs-keyword">break</span>
+    data.append(text + <span class="hljs-string">'\n'</span>)
+    count += <span class="hljs-number">1</span>
+
+f = open(<span class="hljs-string">'mydata.txt'</span>,<span class="hljs-string">'w'</span>)
+f.writelines(data) <span class="hljs-comment"># 위의 while loop를 통하여 append된 모든 텍스트 리스트를 하나의 텍스트로 write한다. </span>
+f.close()
+</code></pre><h4 id="파일-관련-작업"><a name="파일-관련-작업" href="#파일-관련-작업"></a>파일 관련 작업</h4><p>파일을 복사하거나, 파일의 크기를 구하거나, 이름을 바꾸고, 삭제를 하는 등의 일련의 작업을 의미한다.</p><p><strong>텍스트 파일 복사하기</strong>: <code>read()</code>와 <code>write()</code>를 응용한다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>f = open('stockcode.txt','r')
+h = open('stockcode_copy.txt','w')
+
+data = f.read() # f의 내용을 읽은 뒤
+h.write(data) #그 내용을 h에 작성한다.
+
+f.close()
+h.close()
+</code></pre>">f = open(<span class="hljs-string">'stockcode.txt'</span>,<span class="hljs-string">'r'</span>)
+h = open(<span class="hljs-string">'stockcode_copy.txt'</span>,<span class="hljs-string">'w'</span>)
+
+data = f.read() <span class="hljs-comment"># f의 내용을 읽은 뒤</span>
+h.write(data) <span class="hljs-comment">#그 내용을 h에 작성한다.</span>
+
+f.close()
+h.close()
+</code></pre><p><strong>바이너리 파일 복사하기</strong><br>텍스트 파일과 다르게 바이너리 파일(영상, 이미지 등)의 경우는 용량이 큰 경우가 많다. 따라서 대용량 파일의 내용을 한 번에 읽고 쓰는 것은 메모리 용량의 한계가 있기 때문에 불가능한 경우가 많다. 또한 성능 상에서도 문제가 발생하기 때문에 <strong>일정 크기 단위로 잘게 쪼개어</strong> 복사를 하면 이러한 메모리 문제를 해결 할 수 있다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>bufsize = 1024 # 파일의 단위를 1kb로 읽기 위하여 설정 (만약, 256kb 단위로 읽는다면, 256*1024로 설정을 한다)
+f = open('img_sample.jpg','rb')
+h = open('img_sample_copy.jpg','wb')
+
+data = f.read(bufsize) # f를 1kb 단위로 읽는다.
+while data:
+    h.write(data)
+    data = f.read(bufsize)
+
+f.close()
+h.close()
+</code></pre>">bufsize = <span class="hljs-number">1024</span> <span class="hljs-comment"># 파일의 단위를 1kb로 읽기 위하여 설정 (만약, 256kb 단위로 읽는다면, 256*1024로 설정을 한다)</span>
+f = open(<span class="hljs-string">'img_sample.jpg'</span>,<span class="hljs-string">'rb'</span>)
+h = open(<span class="hljs-string">'img_sample_copy.jpg'</span>,<span class="hljs-string">'wb'</span>)
+
+data = f.read(bufsize) <span class="hljs-comment"># f를 1kb 단위로 읽는다.</span>
+<span class="hljs-keyword">while</span> data:
+    h.write(data)
+    data = f.read(bufsize)
+
+f.close()
+h.close()
+</code></pre><p><strong>파일을 열고 자동으로 닫기</strong>: <code>with ~ as</code> 구문을 사용한다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>with open(`stockcode.txt','r') as f:
+    for line_num, line in enumerate(f.readlines()):
+        print('%d %s' % (line_num +1, line), end='')
+</code></pre>">with open(`stockcode.txt','r') as f:
+    for line_num, line in enumerate(f.readlines()):
+        print('%d %s' % (line_num +1, line), end='')
+</code></pre><p>라는 방식으로 with과 as를 사용하면, 해당 구역 내에서 작업을 한 뒤에 open되었던 <code>stockcode.txt</code>의 경우는 바로 닫히게 된다. </p><p><strong>파일의 특정 부분만 복사하기</strong>: <code>seek()</code>, <code>read()</code>, <code>write()</code>를 활용한다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>spos = 105 # 파일을 읽는 위치 지정 (파일의 105바이트 부분부터 읽는다)
+size = 500 # 읽을 크기를 지정 (이후 500바이트인 부분까지 읽는다)
+# 즉, 105 ~ 604바이트까지 설정된 부분을 읽는다. 
+
+f = open('stockcode.txt', 'r')
+h = open('stockcode_part.txt','w')
+
+f.seek(spos)
+data = f.read(size)
+h.write(data)
+
+h.close()
+f.close()
+</code></pre>">spos = <span class="hljs-number">105</span> <span class="hljs-comment"># 파일을 읽는 위치 지정 (파일의 105바이트 부분부터 읽는다)</span>
+size = <span class="hljs-number">500</span> <span class="hljs-comment"># 읽을 크기를 지정 (이후 500바이트인 부분까지 읽는다)</span>
+<span class="hljs-comment"># 즉, 105 ~ 604바이트까지 설정된 부분을 읽는다. </span>
+
+f = open(<span class="hljs-string">'stockcode.txt'</span>, <span class="hljs-string">'r'</span>)
+h = open(<span class="hljs-string">'stockcode_part.txt'</span>,<span class="hljs-string">'w'</span>)
+
+f.seek(spos)
+data = f.read(size)
+h.write(data)
+
+h.close()
+f.close()
+</code></pre><p><strong>파일 크기 구하기</strong>: <code>os.path.getsize()</code><br><code>from os.path import getsize</code>를 통하여 os.path의 모듈에서 해당 함수를 불러온다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from os.path import getsize
+
+file = 'stock.txt'
+file_size = getsize(file1)
+</code></pre>"><span class="hljs-keyword">from</span> os.path <span class="hljs-keyword">import</span> getsize
+
+file = <span class="hljs-string">'stock.txt'</span>
+file_size = getsize(file1)
+</code></pre><p><strong>파일 삭제하기</strong>: <code>os.remove()</code><br><code>from os import remove</code>를 통하여 os의 모듈에서 불러온다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from os import remove
+
+target_file = 'stockcode_copy.txt'
+k = input('[%s] 파일을 삭제하시겠습니까? (y/n)'% target_file)
+if k == 'y':
+    remove(target_file)
+</code></pre>"><span class="hljs-keyword">from</span> os <span class="hljs-keyword">import</span> remove
+
+target_file = <span class="hljs-string">'stockcode_copy.txt'</span>
+k = input(<span class="hljs-string">'[%s] 파일을 삭제하시겠습니까? (y/n)'</span>% target_file)
+<span class="hljs-keyword">if</span> k == <span class="hljs-string">'y'</span>:
+    remove(target_file)
+</code></pre><p><strong>파일 이름 바꾸기</strong>: <code>os.rename()</code><br><code>from os import rename</code>을 통하여 os 모듈에서 불러온다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from os import rename
+
+target_file = 'stockcode.txt'
+newname = input('[%s]에 대한 새로운 파일 이름:' %target_file)
+rename(target_file, newname)
+</code></pre>"><span class="hljs-keyword">from</span> os <span class="hljs-keyword">import</span> rename
+
+target_file = <span class="hljs-string">'stockcode.txt'</span>
+newname = input(<span class="hljs-string">'[%s]에 대한 새로운 파일 이름:'</span> %target_file)
+rename(target_file, newname)
+</code></pre><h4 id="디렉토리-관련"><a name="디렉토리-관련" href="#디렉토리-관련"></a>디렉토리 관련</h4><p><strong>파일을 다른 디렉토리로 이동하기</strong>: <code>os.rename()</code><br><code>from os import rename</code>을 바탕으로 활용한다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from os import rename
+
+target_file = 'stock.txt'
+newpath = input('[%s]를 이동할 디렉토리 입력:' %target_file)
+
+if newpath[-1] == '/':
+    newname = newpath + target_file
+else:
+    newname = newpath + '/' + target_file
+
+try:
+    rename(target_file, newname)
+except FileNotFoundError as e:
+    print(e)
+</code></pre>"><span class="hljs-keyword">from</span> os <span class="hljs-keyword">import</span> rename
+
+target_file = <span class="hljs-string">'stock.txt'</span>
+newpath = input(<span class="hljs-string">'[%s]를 이동할 디렉토리 입력:'</span> %target_file)
+
+<span class="hljs-keyword">if</span> newpath[-<span class="hljs-number">1</span>] == <span class="hljs-string">'/'</span>:
+    newname = newpath + target_file
+<span class="hljs-keyword">else</span>:
+    newname = newpath + <span class="hljs-string">'/'</span> + target_file
+
+<span class="hljs-keyword">try</span>:
+    rename(target_file, newname)
+<span class="hljs-keyword">except</span> FileNotFoundError <span class="hljs-keyword">as</span> e:
+    print(e)
+</code></pre><p>즉, target_file의 경우 <code>기존경로/</code>+<code>파일명</code>으로 구성이 되어 있는데, 파일명 앞에 새로운 <code>/새경로</code>를 더함으로써 파일을 다른 디렉토리로 이동을 하는 것이다. 즉, <code>바뀐경로/</code>+<code>파일명</code>으로 구성되어 해당 파일이 앞서 적힌 경로로 이동을 하게 된다. </p><p><strong>디렉토리에 있는 파일 목록 얻기</strong>: <code>os.listdir()</code>과 <code>glob.glob()</code>를 사용한다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>import os, glob
+
+folder = 'd:/devlab/py200'
+file_list = os.listdir(folder) # 해당 경로 내에 있는 파일의 전체 리스트를 불러온다. 
+
+files='*.txt' # 해당 경로 내에서 txt만 불러내기 위하여 와일드카드(*)를 사용한다
+file_list = glob.glob(files) #해당 경로 내에서 지정된 확장자를 가진 파일의 리스트를 불러온다. (glob in glob module)
+</code></pre>"><span class="hljs-keyword">import</span> os, glob
+
+folder = <span class="hljs-string">'d:/devlab/py200'</span>
+file_list = os.listdir(folder) <span class="hljs-comment"># 해당 경로 내에 있는 파일의 전체 리스트를 불러온다. </span>
+
+files=<span class="hljs-string">'*.txt'</span> <span class="hljs-comment"># 해당 경로 내에서 txt만 불러내기 위하여 와일드카드(*)를 사용한다</span>
+file_list = glob.glob(files) <span class="hljs-comment">#해당 경로 내에서 지정된 확장자를 가진 파일의 리스트를 불러온다. (glob in glob module)</span>
+</code></pre><p><strong>현재 디렉토리 확인하고 바꾸기</strong>: <code>os.getcwd()</code>와 <code>os.chdir()</code>을 사용한다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>import os
+
+pdir = os.getcwd(); print(pdir) # 현재 디렉토리를 저장
+os.chdir('..'); print(os.getcwd()) # pdir의 상위 디렉토리로 이동 (ex: cd..)
+os.chdir(pdir); print(os.getcwd()) # 다시 저장한 pdir로 이동
+</code></pre>"><span class="hljs-keyword">import</span> os
+
+pdir = os.getcwd(); print(pdir) <span class="hljs-comment"># 현재 디렉토리를 저장</span>
+os.chdir(<span class="hljs-string">'..'</span>); print(os.getcwd()) <span class="hljs-comment"># pdir의 상위 디렉토리로 이동 (ex: cd..)</span>
+os.chdir(pdir); print(os.getcwd()) <span class="hljs-comment"># 다시 저장한 pdir로 이동</span>
+</code></pre><p><strong>디렉토리 생성하기</strong>: <code>os.mkdir()</code>를 사용<br>디렉토리의 이름은 ‘절대경로’와 ‘상대경로’ 형식으로 모두 입력을 할 수 있다. <code>os.mkdir(경로이름)</code>을 입력하게 될 경우, cwd에서 하위 경로를 생성한다. </p><p><strong>디렉토리 제거하기</strong>: <code>os.rmdir()</code>를 사용<br>해당 함수를 이용하여, 현재 디렉토리 내에 있는 지명된 폴더 이름을 삭제한다. (예: <code>os.rmdir(tmp)</code>을 할 경우 cwd 내에 있는 tmp 폴더를 삭제한다)</p><p><strong>하위 디렉토리 및 파일 전체 삭제하기</strong>: <code>shutil.rmtree()</code></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>import shutil
+import os
+
+target_folder = 'd:/devlab/py200/tmp'
+for file in os.listdir(target_folder): # target_folder내 모든 파일 리스트를 부르고, 해당 파일 리스트를 반환하며 shutil.rmtree를 활용하여 target_folder 내의 파일을 삭제한다. 
+    print(file)
+k = input('[%s]를 삭제하십니까?:' %target_folder)
+if k=='y':
+    try:
+        shutil.rmtree(target_folder)
+    except Exception as e:
+        print(e)
+</code></pre>"><span class="hljs-keyword">import</span> shutil
+<span class="hljs-keyword">import</span> os
+
+target_folder = <span class="hljs-string">'d:/devlab/py200/tmp'</span>
+<span class="hljs-keyword">for</span> file <span class="hljs-keyword">in</span> os.listdir(target_folder): <span class="hljs-comment"># target_folder내 모든 파일 리스트를 부르고, 해당 파일 리스트를 반환하며 shutil.rmtree를 활용하여 target_folder 내의 파일을 삭제한다. </span>
+    print(file)
+k = input(<span class="hljs-string">'[%s]를 삭제하십니까?:'</span> %target_folder)
+<span class="hljs-keyword">if</span> k==<span class="hljs-string">'y'</span>:
+    <span class="hljs-keyword">try</span>:
+        shutil.rmtree(target_folder)
+    <span class="hljs-keyword">except</span> Exception <span class="hljs-keyword">as</span> e:
+        print(e)
+</code></pre><p><strong>파일이 존재하는지 체크하기</strong>: <code>os.path.exists()</code></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>import os
+from os.path import exists
+
+dir_name = input('새로운 디렉토리 이름 입력:')
+    if not exists(dir_name):
+        os.mkdir(dir_name)
+    else:
+</code></pre>"><span class="hljs-keyword">import</span> os
+<span class="hljs-keyword">from</span> os.path <span class="hljs-keyword">import</span> exists
+
+dir_name = input(<span class="hljs-string">'새로운 디렉토리 이름 입력:'</span>)
+    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> exists(dir_name):
+        os.mkdir(dir_name)
+    <span class="hljs-keyword">else</span>:
+</code></pre><p>exists를 활용하여, dir_name이 디렉토리에 있는지 확인을 한 뒤, 없을 경우 디렉토리를 생성한다.</p><p><strong>파일인지 디렉토리인지 확인하기</strong>: <code>os.path.isfile()</code>과 <code>os.path.isdir()</code>를 사용한다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>import os
+from os.path import exists, isdir, isfile
+
+files = os.listdir()
+for file in files:
+    if isdir(file):
+        print('DIR: %s' %file)
+
+for file in files:
+    if isfile(file):
+        print('FILE: %s' %file)
+</code></pre>"><span class="hljs-keyword">import</span> os
+<span class="hljs-keyword">from</span> os.path <span class="hljs-keyword">import</span> exists, isdir, isfile
+
+files = os.listdir()
+<span class="hljs-keyword">for</span> file <span class="hljs-keyword">in</span> files:
+    <span class="hljs-keyword">if</span> isdir(file):
+        print(<span class="hljs-string">'DIR: %s'</span> %file)
+
+<span class="hljs-keyword">for</span> file <span class="hljs-keyword">in</span> files:
+    <span class="hljs-keyword">if</span> isfile(file):
+        print(<span class="hljs-string">'FILE: %s'</span> %file)
+</code></pre><p>단순히 TRUE, FALSE를 반환하기 때문에 이를 활용하여 작성을 한다. </p><h4 id="날짜"><a name="날짜" href="#날짜"></a>날짜</h4><p><strong>현재 시간을 년-월-일 시:분:초 로 출력하기</strong>: <code>localtime()</code>, <code>strftime()</code>를 활용한다.</p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from time import localtime, strftime
+
+logfile = 'test.log'
+def writelog(logfile, log):
+    time_stampe = strftime('%Y-%m-%d %X\t', localtime())
+    log = time_stamp + log + '\n'
+
+with open(logfile, 'a') as f:
+    f writelines(log)
+</code></pre>"><span class="hljs-keyword">from</span> time <span class="hljs-keyword">import</span> localtime, strftime
+
+logfile = <span class="hljs-string">'test.log'</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">writelog</span><span class="hljs-params">(logfile, log)</span>:</span>
+    time_stampe = strftime(<span class="hljs-string">'%Y-%m-%d %X\t'</span>, localtime())
+    log = time_stamp + log + <span class="hljs-string">'\n'</span>
+
+<span class="hljs-keyword">with</span> open(logfile, <span class="hljs-string">'a'</span>) <span class="hljs-keyword">as</span> f:
+    f writelines(log)
+</code></pre><p>time 모듈의 localtime()은 대한민국의 현재시각을 time.struct_time 형식의 데이터로 리턴을 한다. 이는 설정된 지역에 따라 해당 지역의 시간을 반환한다. time.struct_time의 형식은 9개의 속성을 가지고 있으며, 각 속성에 대한 값들은 속성 이름이나 인덱스로 접근이 가능하다.</p><table>
+<thead>
+<tr>
+<th>인덱스</th>
+<th>속성이름</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>tm_year</td>
+<td>현재년도(yyyy)</td>
+</tr>
+<tr>
+<td>1</td>
+<td>tm_mon</td>
+<td>현재 월 (1 ~ 12)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>tm_mday</td>
+<td>현재 날짜(1 ~ 31)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>tm_hour</td>
+<td>현재 시간 (0 ~ 23)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>tm_min</td>
+<td>현재 분 (0 ~ 59)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>tm_sec</td>
+<td>현재 초 (0 ~ 61; 61은 윤초일 때 사용)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>tm_wday</td>
+<td>현재 요일 (0 ~ 6; 0은 월요일)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>tm_yday</td>
+<td>1월 1일부터 현재까지의 날짜수 (1 ~ 365)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>tm_isdst</td>
+<td>섬머타임일 경우 1, 아닐 경우 0, 모를 경우 -1</td>
+</tr>
+</tbody>
+</table><p>따라서 <code>t=localtime()</code>으로 지정을 한다면 t[0] 혹은 t.tm_year 을 통하여 현재년도를 구할 수 있다. </p><p>time 모듈의 <code>strftime()</code>은 struct_time 형식의 데이터를 포맷 문자열을 이용하여 특정 형식으로 시간을 표현한다. </p><table>
+<thead>
+<tr>
+<th>포맷 문자열</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>%Y</td>
+<td>년도를 나타냄 (예: 2018)</td>
+</tr>
+<tr>
+<td>%m</td>
+<td>월을 나타냄 (예: 09, 12)</td>
+</tr>
+<tr>
+<td>%d</td>
+<td>일을 나타냄 (예: 02, 15)</td>
+</tr>
+<tr>
+<td>%H</td>
+<td>시간을 24시간 표시 형식으로 나타냄 (예: 08, 23)</td>
+</tr>
+<tr>
+<td>%M</td>
+<td>분을 나타냄 (예: 45)</td>
+</tr>
+<tr>
+<td>%S</td>
+<td>초를 나타냄 </td>
+</tr>
+<tr>
+<td>%x</td>
+<td>현재 날짜를 월/일/년으로 나타냄 (06/28/2018)</td>
+</tr>
+<tr>
+<td>%X</td>
+<td>현재 시간을 시:분:초로 나타냄 (15:53:24)</td>
+</tr>
+</tbody>
+</table><p>time.strftime 과 관련하여 검색을 통하여 더욱 많은 포맷 문자열을 정리할 필요가 있다. </p><p><strong>올해 경과된 날짜 수 계산하기</strong>: <code>localtime()</code></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from time import localtime
+
+t = localtime()
+start_day = '%d-01-01' %t.tm_year
+elapsed_day = t.tm_yday
+</code></pre>"><span class="hljs-keyword">from</span> time <span class="hljs-keyword">import</span> localtime
+
+t = localtime()
+start_day = <span class="hljs-string">'%d-01-01'</span> %t.tm_year
+elapsed_day = t.tm_yday
+</code></pre><p><strong>오늘의 요일 계산하기</strong>: <code>localtime()</code> </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from time import localtime
+
+weekdays = ['월요일','화요일','수요일','목요일','금요일','토요일','일요일']
+
+t = localtime()
+week = weekdays[t.tm_wday]
+</code></pre>"><span class="hljs-keyword">from</span> time <span class="hljs-keyword">import</span> localtime
+
+weekdays = [<span class="hljs-string">'월요일'</span>,<span class="hljs-string">'화요일'</span>,<span class="hljs-string">'수요일'</span>,<span class="hljs-string">'목요일'</span>,<span class="hljs-string">'금요일'</span>,<span class="hljs-string">'토요일'</span>,<span class="hljs-string">'일요일'</span>]
+
+t = localtime()
+week = weekdays[t.tm_wday]
+</code></pre><h4 id="url"><a name="url" href="#url"></a>URL</h4><p><strong>URL 에서 호스트 도메인 추출하기</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>url = 'http://v.movie.daum.net/v/20180628080106756'
+
+tmp = url.split('/')
+domain = tmp[2]
+</code></pre>">url = <span class="hljs-string">'http://v.movie.daum.net/v/20180628080106756'</span>
+
+tmp = url.split(<span class="hljs-string">'/'</span>)
+domain = tmp[<span class="hljs-number">2</span>]
+</code></pre><p>단순하게 호스트 도메인만 추출하는 코드이다. 즉, ‘/‘를 바탕으로 domain을 나눈 뒤에 해당 도메인 리스트의 인덱스를 활용하여 도메인을 추출한 것이다. </p><p><strong>URL에서 쿼리 문자열 추출하기</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>url = 'http://news.naver.com/main/ranking/read.nhn?mid=etc&amp;amp;sid1=111&amp;amp;rankingType=popular_day&amp;amp;oid=421&amp;amp;aid=0003454723&amp;amp;date=20180628&amp;amp;type=1&amp;amp;rankingSeq=1&amp;amp;rankingSectionId=103'
+
+tmp = url.split('?')
+queries = tmp[1].split('&amp;amp;')
+for query in queries:
+    print(query)
+</code></pre>">url = <span class="hljs-string">'http://news.naver.com/main/ranking/read.nhn?mid=etc&amp;sid1=111&amp;rankingType=popular_day&amp;oid=421&amp;aid=0003454723&amp;date=20180628&amp;type=1&amp;rankingSeq=1&amp;rankingSectionId=103'</span>
+
+tmp = url.split(<span class="hljs-string">'?'</span>)
+queries = tmp[<span class="hljs-number">1</span>].split(<span class="hljs-string">'&amp;'</span>)
+<span class="hljs-keyword">for</span> query <span class="hljs-keyword">in</span> queries:
+    print(query)
+</code></pre><p>URL에서 ‘?’ 뒤에 표시되는 문자열을 쿼리 문자열(Query)라고 부른다. 쿼리 문자열은 <code>변수 = 값</code> 쌍이 <code>&amp;</code>로 구분이 되어 나열된다. 따라서 개별 쿼리를 구분하여 확인 할 수 있다.</p><p><strong>URL에 접속하여 HTML 페이지 화면에 출력하기</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from urllib.request import urlopen
+
+url = 'https://www.python.org'
+with urlopen(url) as f:
+    doc = f.read().decode() # 바이트 스트림을 유니코드 문자열로 변환
+    print(doc)
+</code></pre>"><span class="hljs-keyword">from</span> urllib.request <span class="hljs-keyword">import</span> urlopen
+
+url = <span class="hljs-string">'https://www.python.org'</span>
+<span class="hljs-keyword">with</span> urlopen(url) <span class="hljs-keyword">as</span> f:
+    doc = f.read().decode() <span class="hljs-comment"># 바이트 스트림을 유니코드 문자열로 변환</span>
+    print(doc)
+</code></pre><p><code>urllib.request</code>모듈에 대하여 알아둘 필요가 있다. </p><p><strong>URL에 접속하여 HTML 페이지를 파일로 저장하기</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from urllib.request import urlopen
+
+url = 'https://www.python.org/'
+with urlopen(url) as f:
+    doc = f.read().decode()
+    with open('pythonhome.html','w') as h:
+        h.writelines(doc)
+
+# 혹은
+with urlopen(url) as f:
+    doc = f.read()
+    with open('pythonhome.html', 'wb') as h:
+        h.write(doc)
+
+#의 방식으로 decode를 쓰지 않고 바이너리로 읽은 뒤 저장을 하여도 된다.
+</code></pre>"><span class="hljs-keyword">from</span> urllib.request <span class="hljs-keyword">import</span> urlopen
+
+url = <span class="hljs-string">'https://www.python.org/'</span>
+<span class="hljs-keyword">with</span> urlopen(url) <span class="hljs-keyword">as</span> f:
+    doc = f.read().decode()
+    <span class="hljs-keyword">with</span> open(<span class="hljs-string">'pythonhome.html'</span>,<span class="hljs-string">'w'</span>) <span class="hljs-keyword">as</span> h:
+        h.writelines(doc)
+
+<span class="hljs-comment"># 혹은</span>
+<span class="hljs-keyword">with</span> urlopen(url) <span class="hljs-keyword">as</span> f:
+    doc = f.read()
+    <span class="hljs-keyword">with</span> open(<span class="hljs-string">'pythonhome.html'</span>, <span class="hljs-string">'wb'</span>) <span class="hljs-keyword">as</span> h:
+        h.write(doc)
+
+<span class="hljs-comment">#의 방식으로 decode를 쓰지 않고 바이너리로 읽은 뒤 저장을 하여도 된다.</span>
+</code></pre><p><strong>인터넷에 있는 이미지를 내 PC로 저장하기</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from urllib.request import urlopen
+
+imgurl = 'http://www.epaiai.com/img_sample.jpg'
+imgname = imgurl.split('/')[-1] # img_sample.jpg만 따온다. 
+
+try:
+    with urlopen(imgurl) as f:
+        with open(imgname, 'wb') as h:
+            img = f.read()
+            h.write(img) # h로 연 파일을 img라는 이름으로 복사/저장
+except Exception as e:
+    print(e)
+</code></pre>"><span class="hljs-keyword">from</span> urllib.request <span class="hljs-keyword">import</span> urlopen
+
+imgurl = <span class="hljs-string">'http://www.epaiai.com/img_sample.jpg'</span>
+imgname = imgurl.split(<span class="hljs-string">'/'</span>)[-<span class="hljs-number">1</span>] <span class="hljs-comment"># img_sample.jpg만 따온다. </span>
+
+<span class="hljs-keyword">try</span>:
+    <span class="hljs-keyword">with</span> urlopen(imgurl) <span class="hljs-keyword">as</span> f:
+        <span class="hljs-keyword">with</span> open(imgname, <span class="hljs-string">'wb'</span>) <span class="hljs-keyword">as</span> h:
+            img = f.read()
+            h.write(img) <span class="hljs-comment"># h로 연 파일을 img라는 이름으로 복사/저장</span>
+<span class="hljs-keyword">except</span> Exception <span class="hljs-keyword">as</span> e:
+    print(e)
+</code></pre><p><strong>인터넷에 있는 대용량 파일을 내 PC로 저장하기</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from urllib.request import urlopen
+
+BUFSIZE = 256*1024 # setting 256 kb as default buff
+
+fileurl = 'https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe'
+filename = fileurl.split('/')[-1] # python-3.5.2.exe를 받는다. 
+
+try:
+    with urlopen(fileurl) as f:
+        with open(filename, 'wb') as h:
+            buf = f.read(BUFSIZE) #256kb 마다 읽은 뒤에
+            while buf:
+                h.write(buf) #그만큼을 저장을 하고
+                buf = f.read(BUFSIZE) #새로운 256kb를 읽는다. 
+except Exception as e:
+    print(e)
+</code></pre>"><span class="hljs-keyword">from</span> urllib.request <span class="hljs-keyword">import</span> urlopen
+
+BUFSIZE = <span class="hljs-number">256</span>*<span class="hljs-number">1024</span> <span class="hljs-comment"># setting 256 kb as default buff</span>
+
+fileurl = <span class="hljs-string">'https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe'</span>
+filename = fileurl.split(<span class="hljs-string">'/'</span>)[-<span class="hljs-number">1</span>] <span class="hljs-comment"># python-3.5.2.exe를 받는다. </span>
+
+<span class="hljs-keyword">try</span>:
+    <span class="hljs-keyword">with</span> urlopen(fileurl) <span class="hljs-keyword">as</span> f:
+        <span class="hljs-keyword">with</span> open(filename, <span class="hljs-string">'wb'</span>) <span class="hljs-keyword">as</span> h:
+            buf = f.read(BUFSIZE) <span class="hljs-comment">#256kb 마다 읽은 뒤에</span>
+            <span class="hljs-keyword">while</span> buf:
+                h.write(buf) <span class="hljs-comment">#그만큼을 저장을 하고</span>
+                buf = f.read(BUFSIZE) <span class="hljs-comment">#새로운 256kb를 읽는다. </span>
+<span class="hljs-keyword">except</span> Exception <span class="hljs-keyword">as</span> e:
+    print(e)
+</code></pre><h4 id="파일-분할-및-압축"><a name="파일-분할-및-압축" href="#파일-분할-및-압축"></a>파일 분할 및 압축</h4><p><strong>10MB 파일을 1MB 파일 10개로 분류하기</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>filename ='python-3.5.2.exe'
+subsize = 1024*1024*3 # 3MB를 의미한다.
+suffix = 0
+
+with open(filename, 'rb') as f:
+    buf = f.read(subsize)
+    while buf:
+        subfilename = filename + '_' + str(suffix)
+        with open(subfilename, 'wb') as h:
+            h.write(buf)
+
+        buf = f.read(subsize)
+        suffix += 1
+</code></pre>">filename =<span class="hljs-string">'python-3.5.2.exe'</span>
+subsize = <span class="hljs-number">1024</span>*<span class="hljs-number">1024</span>*<span class="hljs-number">3</span> <span class="hljs-comment"># 3MB를 의미한다.</span>
+suffix = <span class="hljs-number">0</span>
+
+<span class="hljs-keyword">with</span> open(filename, <span class="hljs-string">'rb'</span>) <span class="hljs-keyword">as</span> f:
+    buf = f.read(subsize)
+    <span class="hljs-keyword">while</span> buf:
+        subfilename = filename + <span class="hljs-string">'_'</span> + str(suffix)
+        <span class="hljs-keyword">with</span> open(subfilename, <span class="hljs-string">'wb'</span>) <span class="hljs-keyword">as</span> h:
+            h.write(buf)
+
+        buf = f.read(subsize)
+        suffix += <span class="hljs-number">1</span>
+</code></pre><p><strong>1MB 파일 10개를 합쳐서 10MB 파일로 만들기</strong><br>앞선 예제의 코드에 의해 구분된 10개의 파일을 다시 하나로 합치는 코드이다. </p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>BUFSIZE = 256.1024 #256 kb
+merge_filename = 'ret.exe'
+filelist = ['python-3.5.2.exe_'+ str(x) for x in range(10)]
+
+with open(merge_filename, 'wb') as f:
+    for filename in filelist:
+        with open(filename, 'rb') as h:
+            buf = h.read(BUFSIZE)
+            while buf:
+                f.write(buf)
+                buf = h.read(BUFSIZE)
+</code></pre>">BUFSIZE = <span class="hljs-number">256.1024</span> <span class="hljs-comment">#256 kb</span>
+merge_filename = <span class="hljs-string">'ret.exe'</span>
+filelist = [<span class="hljs-string">'python-3.5.2.exe_'</span>+ str(x) <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> range(<span class="hljs-number">10</span>)]
+
+<span class="hljs-keyword">with</span> open(merge_filename, <span class="hljs-string">'wb'</span>) <span class="hljs-keyword">as</span> f:
+    <span class="hljs-keyword">for</span> filename <span class="hljs-keyword">in</span> filelist:
+        <span class="hljs-keyword">with</span> open(filename, <span class="hljs-string">'rb'</span>) <span class="hljs-keyword">as</span> h:
+            buf = h.read(BUFSIZE)
+            <span class="hljs-keyword">while</span> buf:
+                f.write(buf)
+                buf = h.read(BUFSIZE)
+</code></pre><p><strong>파일을 ZIP 압축 파일로 만들기</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from zipfile import *
+
+def compressZip(zipname,filename):
+    with ZipFile(zipname,'w') as ziph:
+        ziph.write(filename)
+
+filename = 'mydata.txt'
+zipname = filename + '.zip'
+compressZip(zipname,filename)
+</code></pre>"><span class="hljs-keyword">from</span> zipfile <span class="hljs-keyword">import</span> *
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">compressZip</span><span class="hljs-params">(zipname,filename)</span>:</span>
+    <span class="hljs-keyword">with</span> ZipFile(zipname,<span class="hljs-string">'w'</span>) <span class="hljs-keyword">as</span> ziph:
+        ziph.write(filename)
+
+filename = <span class="hljs-string">'mydata.txt'</span>
+zipname = filename + <span class="hljs-string">'.zip'</span>
+compressZip(zipname,filename)
+</code></pre><p>파이썬의 <code>zipfile</code>모듈은 ZIP파일을 생성하고, 기록하고, 파일 풀기 등과 같은 ZIP 파일의 관련한 다양한 기능을 제공한다. </p><p><strong>디렉토리를 하나의 ZIP파일로 압축하기</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from zipfile import *
+import os
+
+def compressALL(zipname, folder):
+    with ZipFile(zipname,'w') as ziph:
+        for dirname, subdirs, files in os.walk(folder):
+            for file in files:
+                ziph.write(os.path.join(dirname, file))
+
+folder = 'tmp'
+zipname = folder + '.zip'
+compressALL(zipname, folder)
+</code></pre>"><span class="hljs-keyword">from</span> zipfile <span class="hljs-keyword">import</span> *
+<span class="hljs-keyword">import</span> os
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">compressALL</span><span class="hljs-params">(zipname, folder)</span>:</span>
+    <span class="hljs-keyword">with</span> ZipFile(zipname,<span class="hljs-string">'w'</span>) <span class="hljs-keyword">as</span> ziph:
+        <span class="hljs-keyword">for</span> dirname, subdirs, files <span class="hljs-keyword">in</span> os.walk(folder):
+            <span class="hljs-keyword">for</span> file <span class="hljs-keyword">in</span> files:
+                ziph.write(os.path.join(dirname, file))
+
+folder = <span class="hljs-string">'tmp'</span>
+zipname = folder + <span class="hljs-string">'.zip'</span>
+compressALL(zipname, folder)
+</code></pre><p><code>os.walk</code>의 경우는 주어진 디렉토리를 모두 탐색하는데 사용된다. 즉, 여러 하위 구조를 갖고 있는 디렉토리에 대해 <code>walk(폴더명)</code>을 입력하면 해당 폴더명 아래에 있는 디렉토리와 파일들을 탐색하고 결과를 리스트로 저장을 하게 된다. </p><p>탐색된 서브 디렉토리가 있을 경우, 해당 디렉토리와 파일들을 동일하게 탐색하고 결과를 저장한다. <code>walk()</code>의 결과는 다음과 같이 반환한다.<br><code>[('탐색 디렉토리 이름', ['찾은 서브 디렉토리 이름'...],['찾은 파일 이름...])...]</code></p><p><strong>ZIP 파일 압축 풀기</strong></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from zipfile import *
+
+def extractZip(zipname):
+    with ZipFile(zipname, 'r') as ziph:
+        ziph.extractall()
+
+extractZip('files.zip')
+</code></pre>"><span class="hljs-keyword">from</span> zipfile <span class="hljs-keyword">import</span> *
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">extractZip</span><span class="hljs-params">(zipname)</span>:</span>
+    <span class="hljs-keyword">with</span> ZipFile(zipname, <span class="hljs-string">'r'</span>) <span class="hljs-keyword">as</span> ziph:
+        ziph.extractall()
+
+extractZip(<span class="hljs-string">'files.zip'</span>)
+</code></pre><h4 id="기타"><a name="기타" href="#기타"></a>기타</h4><p><strong>프로그램 실행 시간 계산하기</strong>: <code>datetime.now()</code></p><pre class="python hljs"><code class="python" data-origin="<pre><code class=&quot;python&quot;>from datetime import datetime
+
+start = datetime.now()
+
+ret = 0
+for i in range(1000):
+    ret += i
+
+end = datetime.now()
+
+elapsed = end - start
+elapsed_ms = int(elapsed.total_seconds()*1000) # 1/1000초 수준으로 측정하는 코드 (elapsed의 경우는 1/1000000초 단위까지 저장된다)
+</code></pre>"><span class="hljs-keyword">from</span> datetime <span class="hljs-keyword">import</span> datetime
+
+start = datetime.now()
+
+ret = <span class="hljs-number">0</span>
+<span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">1000</span>):
+    ret += i
+
+end = datetime.now()
+
+elapsed = end - start
+elapsed_ms = int(elapsed.total_seconds()*<span class="hljs-number">1000</span>) <span class="hljs-comment"># 1/1000초 수준으로 측정하는 코드 (elapsed의 경우는 1/1000000초 단위까지 저장된다)</span>
+</code></pre><p><strong>스택 구현하기</strong>: <code>append()</code>, <code>pop()</code><br>스택(stack)은 나중에 저장된 자료가 먼저 추출될 수 있도록 되어 있는 나열 구조이다. <a href="http://korbillgates.tistory.com/79">참고 블로그</a></p>
+
+<footer style="position:fixed; font-size:.8em; text-align:right; bottom:0px; margin-left:-25px; height:20px; width:100%;">generated by <a href="http://pad.haroopress.com" target="_blank">haroopad</a></footer>
+</body>
+</html>
